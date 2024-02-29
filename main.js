@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { resolve } = require("path");
 const readline = require("readline");
 
 async function readUrlsFromFile(filePath) {
@@ -36,14 +35,41 @@ async function getDepthFromUser() {
   }
 }
 
-getDepthFromUser()
-  .then((depth) => {
-    console.log(`Crawling with depth: ${depth}`);
-    return readUrlsFromFile("urls.txt");
-  })
-  .then((urls) => {
-    console.log(urls);
-  })
-  .catch((error) => {
+async function fetchDomContent(url) {
+  try {
+    const fetchModule = await import("node-fetch");
+    const response = await fetchModule.default(url);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+    }
+    const html = await response.text();
+    const { JSDOM } = await import("jsdom");
+    return new JSDOM(html).window.document;
+  } catch (error) {
+    throw error;
+  }
+}
+
+async function crawlWebsite(urls) {
+  try {
+    for (const url of urls) {
+      console.log(`Fetching DOM content of ${url}`);
+      const document = await fetchDomContent(url);
+      console.log("Document.location.href: ", document.location.href);
+      console.log(document.title);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+async function main() {
+  try {
+    const depth = await getDepthFromUser();
+    const urls = await readUrlsFromFile("urls.txt");
+    await crawlWebsite(urls);
+  } catch (error) {
     console.error(error);
-  });
+  }
+}
+
+main();
