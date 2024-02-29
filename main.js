@@ -44,7 +44,15 @@ async function fetchDomContent(url) {
     }
     const html = await response.text();
     const { JSDOM } = await import("jsdom");
-    return new JSDOM(html).window.document;
+    const dom = new JSDOM(html);
+    const document = dom.window.document;
+    const links = Array.from(document.querySelectorAll("a[href]")).map(
+      (link) => link.href
+    );
+
+    console.log(`Links: ${links}`);
+
+    return { url, links, document };
   } catch (error) {
     throw error;
   }
@@ -54,8 +62,7 @@ async function crawlWebsite(urls) {
   try {
     for (const url of urls) {
       console.log(`Fetching DOM content of ${url}`);
-      const document = await fetchDomContent(url);
-      console.log("Document.location.href: ", document.location.href);
+      const { document } = await fetchDomContent(url);
       console.log(document.title);
     }
   } catch (error) {
