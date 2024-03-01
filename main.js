@@ -38,7 +38,7 @@ async function getDepthFromUser() {
 async function fetchDomContentAndParsing(url) {
   try {
     const fetchModule = await import("node-fetch");
-    const response = await fetchModule.default(url);
+    const response = await fetch(url);
     if (!response.ok) {
       throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
     }
@@ -114,10 +114,7 @@ async function main() {
   try {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
-    const { edges: graph, nodes: visitedUrls } = await crawlWebsite(
-      urls,
-      depth
-    );
+    const { graph, visitedUrls } = await crawlWebsite(urls, depth);
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
