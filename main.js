@@ -66,8 +66,8 @@ async function fetchDomContentAndParsing(url) {
     });
 
     console.log(`URL: ${url}`);
-    console.log(`Links: ${links}`);
-    console.log("----------------------------------------------------\n");
+    // console.log(`Links: ${links}`);
+    // console.log("----------------------------------------------------\n");
 
     return { url, links };
   } catch (error) {
@@ -83,7 +83,7 @@ async function crawlWebsite(urls, depth) {
       try {
         if (currentDepth <= depth && !visitedUrls.has(url)) {
           visitedUrls.add(new URL(url).href);
-          console.log(`Depth: ${currentDepth}`);
+          //   console.log(`Depth: ${currentDepth}`);
           const { url: currentUrl, links } = await fetchDomContentAndParsing(
             url
           );
@@ -114,7 +114,11 @@ async function main() {
   try {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
-    await crawlWebsite(urls, depth);
+    const graph = await crawlWebsite(urls, depth);
+
+    // Example: Write graph data to a file
+    fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
+    console.log("Graph data has been written to graph_data.json");
   } catch (error) {
     console.error(error);
   }
