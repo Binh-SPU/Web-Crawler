@@ -104,7 +104,7 @@ async function crawlWebsite(urls, depth) {
       })
     );
 
-    return graph;
+    return { graph, visitedUrls };
   } catch (error) {
     console.log(error);
   }
@@ -114,7 +114,10 @@ async function main() {
   try {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
-    const graph = await crawlWebsite(urls, depth);
+    const { edges: graph, nodes: visitedUrls } = await crawlWebsite(
+      urls,
+      depth
+    );
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
