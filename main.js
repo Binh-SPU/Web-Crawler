@@ -35,7 +35,7 @@ async function getDepthFromUser() {
   }
 }
 
-async function fetchDomContent(url) {
+async function fetchDomContentAndParsing(url) {
   try {
     const fetchModule = await import("node-fetch");
     const response = await fetchModule.default(url);
@@ -46,25 +46,58 @@ async function fetchDomContent(url) {
     const { JSDOM } = await import("jsdom");
     const dom = new JSDOM(html);
     const document = dom.window.document;
-    const links = Array.from(document.querySelectorAll("a[href]")).map(
+    let links = Array.from(document.querySelectorAll("a[href]")).map(
       (link) => link.href
     );
 
-    console.log(`Links: ${links}`);
+    links = links.filter((link) => !link.startsWith("about:"));
 
-    return { url, links, document };
+    links = links.map((link) => {
+      if (link.startsWith("//")) {
+        const protocol = new URL(url).protocol;
+        link = `${protocol}${link}`;
+      } else if (link.startsWith("/")) {
+        const { origin } = new URL(url);
+        link = `${origin}${link}`;
+      } else {
+        link = link;
+      }
+      return link;
+    });
+
+    console.log(`URL: ${url}`);
+    console.log(`Links: ${links}`);
+    console.log("----------------------------------------------------\n");
+
+    return { url, links };
   } catch (error) {
     throw error;
   }
 }
 
-async function crawlWebsite(urls) {
+async function crawlWebsite(urls, depth) {
   try {
-    for (const url of urls) {
-      console.log(`Fetching DOM content of ${url}`);
-      const { document } = await fetchDomContent(url);
-      console.log(document.title);
+    const visitedUrls = new Set();
+    const graph = {};
+    async function crawl(url, currentDepth) {
+      if (!visitedUrls.has(url) && currentDepth <= depth) {
+        visitedUrls.add(new URL(url).href);
+        console.log(`Depth: ${currentDepth}`);
+        const { url: currentUrl, links } = await fetchDomContentAndParsing(url);
+        graph[currentUrl] = links;
+        for (const link of links) {
+          await crawl(link, currentDepth + 1);
+        }
+      }
     }
+
+    await Promise.all(
+      urls.map(async (url) => {
+        await crawl(url, 0);
+      })
+    );
+
+    return graph;
   } catch (error) {
     console.log(error);
   }
@@ -73,7 +106,7 @@ async function main() {
   try {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
-    await crawlWebsite(urls);
+    await crawlWebsite(urls, depth);
   } catch (error) {
     console.error(error);
   }
