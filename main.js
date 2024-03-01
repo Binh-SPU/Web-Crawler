@@ -80,14 +80,21 @@ async function crawlWebsite(urls, depth) {
     const visitedUrls = new Set();
     const graph = {};
     async function crawl(url, currentDepth) {
-      if (!visitedUrls.has(url) && currentDepth <= depth) {
-        visitedUrls.add(new URL(url).href);
-        console.log(`Depth: ${currentDepth}`);
-        const { url: currentUrl, links } = await fetchDomContentAndParsing(url);
-        graph[currentUrl] = links;
-        for (const link of links) {
-          await crawl(link, currentDepth + 1);
+      try {
+        if (currentDepth <= depth && !visitedUrls.has(url)) {
+          visitedUrls.add(new URL(url).href);
+          console.log(`Depth: ${currentDepth}`);
+          const { url: currentUrl, links } = await fetchDomContentAndParsing(
+            url
+          );
+          graph[currentUrl] = links;
+          for (const link of links) {
+            await crawl(link, currentDepth + 1);
+          }
         }
+      } catch (error) {
+        console.error(`Error crawling URL ${url}:`, error.message);
+        // You can add additional error handling or logging here if needed
       }
     }
 
@@ -102,6 +109,7 @@ async function crawlWebsite(urls, depth) {
     console.log(error);
   }
 }
+
 async function main() {
   try {
     const depth = await getDepthFromUser();
