@@ -37,7 +37,6 @@ async function getDepthFromUser() {
 
 async function fetchDomContentAndParsing(url) {
   try {
-    const fetchModule = await import("node-fetch");
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
@@ -75,48 +74,6 @@ async function fetchDomContentAndParsing(url) {
   }
 }
 
-// async function crawlWebsite(urls, depth) {
-//   try {
-//     const startTime = performance.now();
-
-//     const visitedUrls = new Set();
-//     const graph = {};
-//     async function crawl(url, currentDepth) {
-//       try {
-//         if (currentDepth < depth && !visitedUrls.has(url)) {
-//           visitedUrls.add(new URL(url).href);
-//           //   console.log(`Depth: ${currentDepth}`);
-//           const { url: currentUrl, links } = await fetchDomContentAndParsing(
-//             url
-//           );
-//           graph[currentUrl] = links;
-//           for (const link of links) {
-//             await crawl(link, currentDepth + 1);
-//           }
-//         }
-//       } catch (error) {
-//         console.error(`Error crawling URL ${url}:`, error.message);
-//         // You can add additional error handling or logging here if needed
-//       }
-//     }
-
-//     await Promise.all(
-//       urls.map(async (url) => {
-//         await crawl(url, 0);
-//       })
-//     );
-
-//     const endTime = performance.now();
-//     const executionTime = endTime - startTime;
-//     console.log(`Execution time: ${executionTime} milliseconds`);
-//     console.log(`Visited URLs: ${visitedUrls.size}`);
-
-//     return { graph, visitedUrls };
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
-
 async function crawlWebsite(urls, maxDepth) {
   try {
     const startTime = performance.now();
@@ -151,20 +108,19 @@ async function crawlWebsite(urls, maxDepth) {
     let nodeIndex = 1;
     const nodes = Array.from(nodeSet).map((url) => ({
       id: url,
-      labels: nodeIndex++,
+      label: String(nodeIndex++),
     }));
 
     const edges = [];
     for (const [source, targets] of Object.entries(graph)) {
       targets.forEach((target) => {
-        edges.push({ from: source, to: target });
+        edges.push({ from: source, to: target, arrows: "to" });
       });
     }
 
     const endTime = performance.now();
     const executionTime = endTime - startTime;
     console.log(`Execution time: ${executionTime} milliseconds`);
-    console.log(`Visited URLs: ${visitedUrls.size}`);
 
     return { graph, visitedUrls, nodes, edges };
   } catch (error) {
@@ -182,7 +138,7 @@ async function main() {
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
     fs.writeFileSync("nodes.json", JSON.stringify(nodes, null, 2));
     fs.writeFileSync("edges.json", JSON.stringify(edges, null, 2));
-    console.log("Graph data has been written to graph_data.json");
+    console.log("Web crawling completed successfully!");
   } catch (error) {
     console.error(error);
   }
