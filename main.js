@@ -79,6 +79,7 @@ async function fetchDomContentAndParsing(url) {
 
 async function crawlWebsite(urls, maxDepth) {
   try {
+    console.log("\nCrawling the web...\n");
     const startTime = performance.now();
 
     const graph = {};
@@ -139,7 +140,10 @@ async function crawlWebsite(urls, maxDepth) {
 
     const endTime = performance.now();
     const executionTime = endTime - startTime;
-    console.log(`Execution time: ${executionTime} milliseconds`);
+    console.log(
+      `\nExecution time of Fetching Web: ${executionTime} milliseconds`
+    );
+    console.log("Finished crawling the web.\n");
 
     return { graph, nodes, edges };
   } catch (error) {
@@ -147,7 +151,10 @@ async function crawlWebsite(urls, maxDepth) {
   }
 }
 
-function GetDistanceDijkstra(nodes, edges) {
+function GetMostCentralNode(nodes, edges) {
+  console.log("\nCalculating the most central node...\n");
+
+  const startTime = performance.now();
   const graphJS = new dijkstra();
 
   nodes.forEach((node) => {
@@ -180,11 +187,15 @@ function GetDistanceDijkstra(nodes, edges) {
     }
   }
 
-  console.log(`Max: ${mostCentralNode.id}`);
+  const endTime = performance.now();
 
-  console.log(`Inverse distances: ${inverseDistances}`);
-
-  // console.log(`Matrix: ${matrix[0]}`);
+  console.log(
+    `Execution time of Calculating the most central node: ${
+      endTime - startTime
+    } milliseconds`
+  );
+  console.log("Most central node: ", mostCentralNode, "\n");
+  return mostCentralNode;
 }
 
 function createSquareMatrix(nodes) {
@@ -220,10 +231,11 @@ function SetTheWholeMatrix(graph, matrix, nodes) {
 
 function GetSumOfDistance(matrix, index) {
   let sum = 0;
-  matrix[index].reduce((acc, curr) => {
+  sum = matrix[index].reduce((acc, curr) => {
     if (curr !== Infinity) {
-      sum += curr;
+      return acc + curr;
     }
+    return acc;
   }, 0);
 
   return sum;
@@ -234,8 +246,7 @@ async function main() {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
     const { graph, nodes, edges } = await crawlWebsite(urls, depth);
-
-    GetDistanceDijkstra(nodes, edges);
+    const mostCentralNode = GetMostCentralNode(nodes, edges);
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
