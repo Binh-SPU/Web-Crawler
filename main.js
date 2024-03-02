@@ -1,6 +1,6 @@
 const fs = require("fs");
 const readline = require("readline");
-const dijkstra = require("dijkstrajs");
+const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
 
 const MAX_CONCURRENT_REQUESTS = 10;
 
@@ -147,31 +147,86 @@ async function crawlWebsite(urls, maxDepth) {
   }
 }
 
-// function GetDistanceDijkstra(nodes, edges) {
-//   const graphJS = new DirectedGraph();
+function GetDistanceDijkstra(nodes, edges) {
+  const graphJS = new dijkstra();
 
-//   nodes.forEach((node) => {
-//     graphJS.addVertex(node.id, parseInt(node.label));
-//   });
+  nodes.forEach((node) => {
+    graphJS.addVertex(node.id);
+  });
 
-//   edges.forEach((edge) => {
-//     graphJS.addEdge(edge.from, edge.to, 1);
-//   });
+  edges.forEach((edge) => {
+    graphJS.addEdge(edge.from, edge.to, 1);
+  });
 
-//   const graph = dijkstra()
-// }
+  let matrix = createSquareMatrix(nodes);
 
-function calculateClosenessCentrality(graph, node) {
-  const numNodes = Object.keys(graph).length;
-  const distances = dijkstra(graph, node);
+  matrix = SetTheWholeMatrix(graphJS, matrix, nodes);
 
-  let totalDistance = 0;
-  for (const otherNode in distances) {
-    totalDistance += distances[otherNode];
+  const inverseDistances = [];
+  let mostCentralNode = null;
+  for (let i = 0; i < nodes.length; i++) {
+    inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
+    if (i === 0) {
+      mostCentralNode = {
+        id: nodes[i].id,
+        inverseDistance: inverseDistances[i],
+      };
+    }
+    if (inverseDistances[i] > mostCentralNode.inverseDistance) {
+      mostCentralNode = {
+        id: nodes[i].id,
+        inverseDistance: inverseDistances[i],
+      };
+    }
   }
 
-  const closenessCentrality = numNodes / totalDistance;
-  return closenessCentrality;
+  console.log(`Max: ${mostCentralNode.id}`);
+
+  console.log(`Inverse distances: ${inverseDistances}`);
+
+  // console.log(`Matrix: ${matrix[0]}`);
+}
+
+function createSquareMatrix(nodes) {
+  const matrix = [];
+  for (let i = 0; i < nodes.length; i++) {
+    matrix[i] = new Array(nodes.length).fill(0);
+  }
+  return matrix;
+}
+
+function Set1SlotInMatrix(matrix, from, to, value) {
+  matrix[from][to] = value;
+}
+
+function SetTheWholeMatrix(graph, matrix, nodes) {
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = 0; j < nodes.length; j++) {
+      if (i !== j) {
+        const distance = graph.calculateShortestPath(
+          nodes[i].id,
+          nodes[j].id
+        ).length;
+        distance !== 0
+          ? Set1SlotInMatrix(matrix, i, j, distance)
+          : Set1SlotInMatrix(matrix, i, j, Infinity);
+      } else {
+        Set1SlotInMatrix(matrix, i, j, Infinity);
+      }
+    }
+  }
+  return matrix;
+}
+
+function GetSumOfDistance(matrix, index) {
+  let sum = 0;
+  matrix[index].reduce((acc, curr) => {
+    if (curr !== Infinity) {
+      sum += curr;
+    }
+  }, 0);
+
+  return sum;
 }
 
 async function main() {
@@ -180,7 +235,7 @@ async function main() {
     const urls = await readUrlsFromFile("urls.txt");
     const { graph, nodes, edges } = await crawlWebsite(urls, depth);
 
-    calculateClosenessCentrality(graph, "https://spu.edu");
+    GetDistanceDijkstra(nodes, edges);
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
