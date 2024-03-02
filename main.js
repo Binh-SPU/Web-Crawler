@@ -1,5 +1,6 @@
 const fs = require("fs");
 const readline = require("readline");
+const dijkstra = require("dijkstrajs");
 
 const MAX_CONCURRENT_REQUESTS = 10;
 
@@ -146,11 +147,40 @@ async function crawlWebsite(urls, maxDepth) {
   }
 }
 
+// function GetDistanceDijkstra(nodes, edges) {
+//   const graphJS = new DirectedGraph();
+
+//   nodes.forEach((node) => {
+//     graphJS.addVertex(node.id, parseInt(node.label));
+//   });
+
+//   edges.forEach((edge) => {
+//     graphJS.addEdge(edge.from, edge.to, 1);
+//   });
+
+//   const graph = dijkstra()
+// }
+
+function calculateClosenessCentrality(graph, node) {
+  const numNodes = Object.keys(graph).length;
+  const distances = dijkstra(graph, node);
+
+  let totalDistance = 0;
+  for (const otherNode in distances) {
+    totalDistance += distances[otherNode];
+  }
+
+  const closenessCentrality = numNodes / totalDistance;
+  return closenessCentrality;
+}
+
 async function main() {
   try {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
     const { graph, nodes, edges } = await crawlWebsite(urls, depth);
+
+    calculateClosenessCentrality(graph, "https://spu.edu");
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
