@@ -1,1955 +1,2346 @@
 [
   {
+    "index": 1,
     "from": "https://spu.edu",
     "to": "https://spu.edu/alumni",
     "arrows": "to"
   },
   {
+    "index": 2,
     "from": "https://spu.edu",
     "to": "https://spufalcons.com/",
     "arrows": "to"
   },
   {
+    "index": 3,
     "from": "https://spu.edu",
     "to": "https://spu.edu/library",
     "arrows": "to"
   },
   {
+    "index": 4,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/visit",
     "arrows": "to"
   },
   {
+    "index": 5,
     "from": "https://spu.edu",
     "to": "https://spu.edu/apply",
     "arrows": "to"
   },
   {
+    "index": 6,
     "from": "https://spu.edu",
     "to": "https://give.spu.edu/sslpage.aspx",
     "arrows": "to"
   },
   {
+    "index": 7,
     "from": "https://spu.edu",
     "to": "https://web-apps.spu.edu/apps",
     "arrows": "to"
   },
   {
+    "index": 8,
     "from": "https://spu.edu",
     "to": "https://spu.edu/",
     "arrows": "to"
   },
   {
+    "index": 9,
     "from": "https://spu.edu",
     "to": "https://spu.edu/alumni",
     "arrows": "to"
   },
   {
+    "index": 10,
     "from": "https://spu.edu",
     "to": "https://spufalcons.com/",
     "arrows": "to"
   },
   {
+    "index": 11,
     "from": "https://spu.edu",
     "to": "https://spu.edu/library",
     "arrows": "to"
   },
   {
+    "index": 12,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu",
     "arrows": "to"
   },
   {
+    "index": 13,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/the-campus",
     "arrows": "to"
   },
   {
+    "index": 14,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/spu-facts",
     "arrows": "to"
   },
   {
+    "index": 15,
     "from": "https://spu.edu",
     "to": "https://spu.edu/voices",
     "arrows": "to"
   },
   {
+    "index": 16,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/seattle-and-pacific-nw",
     "arrows": "to"
   },
   {
+    "index": 17,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/mission",
     "arrows": "to"
   },
   {
+    "index": 18,
     "from": "https://spu.edu",
     "to": "https://spu.edu/university-leadership",
     "arrows": "to"
   },
   {
+    "index": 19,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/news",
     "arrows": "to"
   },
   {
+    "index": 20,
     "from": "https://spu.edu",
     "to": "https://spu.edu/directory",
     "arrows": "to"
   },
   {
+    "index": 21,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/diversity",
     "arrows": "to"
   },
   {
+    "index": 22,
     "from": "https://spu.edu",
     "to": "https://spu.edu/calendar-and-events",
     "arrows": "to"
   },
   {
+    "index": 23,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/statement-of-faith",
     "arrows": "to"
   },
   {
+    "index": 24,
     "from": "https://spu.edu",
     "to": "https://spu.edu/diversity/spu-diversity-commitment/oiex-land-page",
     "arrows": "to"
   },
   {
+    "index": 25,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics",
     "arrows": "to"
   },
   {
+    "index": 26,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/majors-academics",
     "arrows": "to"
   },
   {
+    "index": 27,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/degree-programs",
     "arrows": "to"
   },
   {
+    "index": 28,
     "from": "https://spu.edu",
     "to": "https://spu.edu/sitecore/service/notfound.aspx?item=web%3a%7bFC24E74E-4C12-432B-A304-F553B567F27A%7d%40en",
     "arrows": "to"
   },
   {
+    "index": 29,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/university-scholars",
     "arrows": "to"
   },
   {
+    "index": 30,
     "from": "https://spu.edu",
     "to": "https://spu.edu/calendar-and-events/academic",
     "arrows": "to"
   },
   {
+    "index": 31,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog",
     "arrows": "to"
   },
   {
+    "index": 32,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-time-schedule",
     "arrows": "to"
   },
   {
+    "index": 33,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-time-schedule",
     "arrows": "to"
   },
   {
+    "index": 34,
     "from": "https://spu.edu",
     "to": "https://spu.edu/library",
     "arrows": "to"
   },
   {
+    "index": 35,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-the-registrar",
     "arrows": "to"
   },
   {
+    "index": 36,
     "from": "https://spu.edu",
     "to": "https://spu.edu/current-students/grad-resource-hub",
     "arrows": "to"
   },
   {
+    "index": 37,
     "from": "https://spu.edu",
     "to": "https://spu.edu/current-students/resource-hub",
     "arrows": "to"
   },
   {
+    "index": 38,
     "from": "https://spu.edu",
     "to": "https://spu.edu/directory",
     "arrows": "to"
   },
   {
+    "index": 39,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/majors-academics/study-abroad#title",
     "arrows": "to"
   },
   {
+    "index": 40,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/university-calendar",
     "arrows": "to"
   },
   {
+    "index": 41,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions",
     "arrows": "to"
   },
   {
+    "index": 42,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions",
     "arrows": "to"
   },
   {
+    "index": 43,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/majors-academics",
     "arrows": "to"
   },
   {
+    "index": 44,
     "from": "https://spu.edu",
     "to": "https://spu.edu/student-financial-services/costs/undergrad-tuition-fees",
     "arrows": "to"
   },
   {
+    "index": 45,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/scholarships-and-grants",
     "arrows": "to"
   },
   {
+    "index": 46,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/net-price-calculator#title",
     "arrows": "to"
   },
   {
+    "index": 47,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/request-info",
     "arrows": "to"
   },
   {
+    "index": 48,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply",
     "arrows": "to"
   },
   {
+    "index": 49,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply/veterans#title",
     "arrows": "to"
   },
   {
+    "index": 50,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply/international-students#title",
     "arrows": "to"
   },
   {
+    "index": 51,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/transfer-students",
     "arrows": "to"
   },
   {
+    "index": 52,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply/first-year-students/fy-req-deadlines#title",
     "arrows": "to"
   },
   {
+    "index": 53,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/visit",
     "arrows": "to"
   },
   {
+    "index": 54,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/visit",
     "arrows": "to"
   },
   {
+    "index": 55,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/virtual-reality-360-video",
     "arrows": "to"
   },
   {
+    "index": 56,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions",
     "arrows": "to"
   },
   {
+    "index": 57,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/degree-programs",
     "arrows": "to"
   },
   {
+    "index": 58,
     "from": "https://spu.edu",
     "to": "https://spu.edu/student-financial-services/costs/grad-tuition-fees",
     "arrows": "to"
   },
   {
+    "index": 59,
     "from": "https://spu.edu",
     "to": "https://spu.edu/grcatalog/costs-financial-aid/financial-aid",
     "arrows": "to"
   },
   {
+    "index": 60,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/admissions/admissions-requirements",
     "arrows": "to"
   },
   {
+    "index": 61,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/admissions/international-admissions",
     "arrows": "to"
   },
   {
+    "index": 62,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/admissions/application-deadlines",
     "arrows": "to"
   },
   {
+    "index": 63,
     "from": "https://spu.edu",
     "to": "https://ce.spu.edu/",
     "arrows": "to"
   },
   {
+    "index": 64,
     "from": "https://spu.edu",
     "to": "https://ce.spu.edu/contentManagement.do?method=load&code=CM000011",
     "arrows": "to"
   },
   {
+    "index": 65,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/transfer-students",
     "arrows": "to"
   },
   {
+    "index": 66,
     "from": "https://spu.edu",
     "to": "https://spu.edu/student-academic-services/transfer-equivalency-guide",
     "arrows": "to"
   },
   {
+    "index": 67,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply/transfer-students#transfer-deadlines",
     "arrows": "to"
   },
   {
+    "index": 68,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply",
     "arrows": "to"
   },
   {
+    "index": 69,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply",
     "arrows": "to"
   },
   {
+    "index": 70,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-student-life",
     "arrows": "to"
   },
   {
+    "index": 71,
     "from": "https://spu.edu",
     "to": "https://spu.sodexomyway.com/index.html",
     "arrows": "to"
   },
   {
+    "index": 72,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/falcon-card-services",
     "arrows": "to"
   },
   {
+    "index": 73,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/housing-residence-life/housing",
     "arrows": "to"
   },
   {
+    "index": 74,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/housing-residence-life/residence-life",
     "arrows": "to"
   },
   {
+    "index": 75,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/conference-services",
     "arrows": "to"
   },
   {
+    "index": 76,
     "from": "https://spu.edu",
     "to": "https://spu.edu/student-financial-services/student-employment",
     "arrows": "to"
   },
   {
+    "index": 77,
     "from": "https://spu.edu",
     "to": "https://spu.edu/assp",
     "arrows": "to"
   },
   {
+    "index": 78,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-student-life/community-life/student-involvement-leadership",
     "arrows": "to"
   },
   {
+    "index": 79,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-student-life",
     "arrows": "to"
   },
   {
+    "index": 80,
     "from": "https://spu.edu",
     "to": "https://spu.edu/current-students/intramurals",
     "arrows": "to"
   },
   {
+    "index": 81,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology/center-for-worship",
     "arrows": "to"
   },
   {
+    "index": 82,
     "from": "https://spu.edu",
     "to": "https://spu.edu/diversity",
     "arrows": "to"
   },
   {
+    "index": 83,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/john-perkins-center/",
     "arrows": "to"
   },
   {
+    "index": 84,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/multi-ethnic-programs",
     "arrows": "to"
   },
   {
+    "index": 85,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-university-ministries",
     "arrows": "to"
   },
   {
+    "index": 86,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/student-counseling-center",
     "arrows": "to"
   },
   {
+    "index": 87,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/health-services",
     "arrows": "to"
   },
   {
+    "index": 88,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-safety-security",
     "arrows": "to"
   },
   {
+    "index": 89,
     "from": "https://spu.edu",
     "to": "https://spu.edu/wellness-initiative",
     "arrows": "to"
   },
   {
+    "index": 90,
     "from": "https://spu.edu",
     "to": "https://spufalcons.com/",
     "arrows": "to"
   },
   {
+    "index": 91,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/academic-support-center",
     "arrows": "to"
   },
   {
+    "index": 92,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/bookstore",
     "arrows": "to"
   },
   {
+    "index": 93,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/center-career-calling",
     "arrows": "to"
   },
   {
+    "index": 94,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/computer-information-systems",
     "arrows": "to"
   },
   {
+    "index": 95,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/center-for-learning/disability-support-services",
     "arrows": "to"
   },
   {
+    "index": 96,
     "from": "https://spu.edu",
     "to": "https://spu.edu/current-students/international-students",
     "arrows": "to"
   },
   {
+    "index": 97,
     "from": "https://spu.edu",
     "to": "https://spu.edu/current-students/grad-resource-hub",
     "arrows": "to"
   },
   {
+    "index": 98,
     "from": "https://spu.edu",
     "to": "https://spu.edu/current-students/resource-hub",
     "arrows": "to"
   },
   {
+    "index": 99,
     "from": "https://spu.edu",
     "to": "https://spu.edu/student-financial-services",
     "arrows": "to"
   },
   {
+    "index": 100,
     "from": "https://spu.edu",
     "to": "https://spu.edu/student-financial-services",
     "arrows": "to"
   },
   {
+    "index": 101,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply",
     "arrows": "to"
   },
   {
+    "index": 102,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/news-archive/student-stories",
     "arrows": "to"
   },
   {
+    "index": 103,
     "from": "https://spu.edu",
     "to": "https://www.youtube.com/watch?v=w9Z1_Mx2eR8",
     "arrows": "to"
   },
   {
+    "index": 104,
     "from": "https://spu.edu",
     "to": "https://www.youtube.com/watch?v=Dd7lCF6ZNoM",
     "arrows": "to"
   },
   {
+    "index": 105,
     "from": "https://spu.edu",
     "to": "https://www.facebook.com/seattle.pacific.university",
     "arrows": "to"
   },
   {
+    "index": 106,
     "from": "https://spu.edu",
     "to": "https://twitter.com/SeattlePacific",
     "arrows": "to"
   },
   {
+    "index": 107,
     "from": "https://spu.edu",
     "to": "https://www.instagram.com/spu_seattlepacific/",
     "arrows": "to"
   },
   {
+    "index": 108,
     "from": "https://spu.edu",
     "to": "https://www.youtube.com/user/SeattlePacific",
     "arrows": "to"
   },
   {
+    "index": 109,
     "from": "https://spu.edu",
     "to": "https://www.linkedin.com/school/seattle-pacific-university/mycompany/",
     "arrows": "to"
   },
   {
+    "index": 110,
     "from": "https://spu.edu",
     "to": "https://www.tiktok.com/@spu_seattlepacific",
     "arrows": "to"
   },
   {
+    "index": 111,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/scholarships-and-grants/first-year-student-scholarships",
     "arrows": "to"
   },
   {
+    "index": 112,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/accelerated-masters-of-arts-in-teaching",
     "arrows": "to"
   },
   {
+    "index": 113,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/accelerated-masters-of-arts-in-teaching-online",
     "arrows": "to"
   },
   {
+    "index": 114,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/accounting",
     "arrows": "to"
   },
   {
+    "index": 115,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/master-in-teaching-mathematics-and-science",
     "arrows": "to"
   },
   {
+    "index": 116,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/master-in-teaching-mathematics-and-science-online",
     "arrows": "to"
   },
   {
+    "index": 117,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/accounting",
     "arrows": "to"
   },
   {
+    "index": 118,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/biology/biology-minors",
     "arrows": "to"
   },
   {
+    "index": 119,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/biology/biology-minors",
     "arrows": "to"
   },
   {
+    "index": 120,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/sociology-programs/anthropology",
     "arrows": "to"
   },
   {
+    "index": 121,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/apparel-design",
     "arrows": "to"
   },
   {
+    "index": 122,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/apparel-design",
     "arrows": "to"
   },
   {
+    "index": 123,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/apparel-design",
     "arrows": "to"
   },
   {
+    "index": 124,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-applied-human-biology",
     "arrows": "to"
   },
   {
+    "index": 125,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/mathematics/majors/bs-in-applied-mathematics",
     "arrows": "to"
   },
   {
+    "index": 126,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/engineering-minors",
     "arrows": "to"
   },
   {
+    "index": 127,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
     "arrows": "to"
   },
   {
+    "index": 128,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
     "arrows": "to"
   },
   {
+    "index": 129,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
     "arrows": "to"
   },
   {
+    "index": 130,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20223/majors-minors",
     "arrows": "to"
   },
   {
+    "index": 131,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20223/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-minors",
     "arrows": "to"
   },
   {
+    "index": 132,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20223/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-minors",
     "arrows": "to"
   },
   {
+    "index": 133,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20223/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-minors",
     "arrows": "to"
   },
   {
+    "index": 134,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20223/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-minors",
     "arrows": "to"
   },
   {
+    "index": 135,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/history/asian-studies-major-minor",
     "arrows": "to"
   },
   {
+    "index": 136,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/chemistry",
     "arrows": "to"
   },
   {
+    "index": 137,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-minor",
     "arrows": "to"
   },
   {
+    "index": 138,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/ba-biology",
     "arrows": "to"
   },
   {
+    "index": 139,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-biology",
     "arrows": "to"
   },
   {
+    "index": 140,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-minor",
     "arrows": "to"
   },
   {
+    "index": 141,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 142,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 143,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 144,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 145,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 146,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 147,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 148,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 149,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 150,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
     "arrows": "to"
   },
   {
+    "index": 151,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-cellular-molecular-biology",
     "arrows": "to"
   },
   {
+    "index": 152,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/chemistry",
     "arrows": "to"
   },
   {
+    "index": 153,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/chemistry/academics",
     "arrows": "to"
   },
   {
+    "index": 154,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/christian-discipleship",
     "arrows": "to"
   },
   {
+    "index": 155,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/christian-scripture",
     "arrows": "to"
   },
   {
+    "index": 156,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology/undergraduate-programs/christian-theology-major",
     "arrows": "to"
   },
   {
+    "index": 157,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/classics",
     "arrows": "to"
   },
   {
+    "index": 158,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/clinical-psychology-phd",
     "arrows": "to"
   },
   {
+    "index": 159,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/coaching-science-minor",
     "arrows": "to"
   },
   {
+    "index": 160,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/communication-studies",
     "arrows": "to"
   },
   {
+    "index": 161,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/communication-and-journalism/minors/communication-minor",
     "arrows": "to"
   },
   {
+    "index": 162,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/computer-engineering-bs",
     "arrows": "to"
   },
   {
+    "index": 163,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/comp-engineering",
     "arrows": "to"
   },
   {
+    "index": 164,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/computer-science-ba-bs",
     "arrows": "to"
   },
   {
+    "index": 165,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/computer-science-ba-bs",
     "arrows": "to"
   },
   {
+    "index": 166,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/degree-requirements?Area=MINCS&Major=1CSC&navRoot={623EB5A9-7EF7-466A-B094-CC30B0D6597F}",
     "arrows": "to"
   },
   {
+    "index": 167,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/theatre",
     "arrows": "to"
   },
   {
+    "index": 168,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/graduate-programs",
     "arrows": "to"
   },
   {
+    "index": 169,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/data-analytics",
     "arrows": "to"
   },
   {
+    "index": 170,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/digital-education",
     "arrows": "to"
   },
   {
+    "index": 171,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/programs/ma-divinity",
     "arrows": "to"
   },
   {
+    "index": 172,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences/graduate-nursing-program/dnp-pathways",
     "arrows": "to"
   },
   {
+    "index": 173,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-of-education/early-childhood-education",
     "arrows": "to"
   },
   {
+    "index": 174,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-of-education/early-childhood-education#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJECE1ECE",
     "arrows": "to"
   },
   {
+    "index": 175,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-ecology",
     "arrows": "to"
   },
   {
+    "index": 176,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/schools-college/business-government-economics/economics",
     "arrows": "to"
   },
   {
+    "index": 177,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/economics",
     "arrows": "to"
   },
   {
+    "index": 178,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/economics",
     "arrows": "to"
   },
   {
+    "index": 179,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/economics",
     "arrows": "to"
   },
   {
+    "index": 180,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/economics",
     "arrows": "to"
   },
   {
+    "index": 181,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/economics",
     "arrows": "to"
   },
   {
+    "index": 182,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/interdisciplinary/ecotheology-minor",
     "arrows": "to"
   },
   {
+    "index": 183,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/educational-leadership-med",
     "arrows": "to"
   },
   {
+    "index": 184,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/doctoral-programs/doctor-of-education-edd",
     "arrows": "to"
   },
   {
+    "index": 185,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/doctoral-programs/doctor-of-philosophy-education-phd",
     "arrows": "to"
   },
   {
+    "index": 186,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/electrical-engineering-bs",
     "arrows": "to"
   },
   {
+    "index": 187,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/ee#{083B8E61-76FB-416D-ABDD-18F08AC397E7}",
     "arrows": "to"
   },
   {
+    "index": 188,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/undergraduate-programs/elementary-education",
     "arrows": "to"
   },
   {
+    "index": 189,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-arts-humanities/english",
     "arrows": "to"
   },
   {
+    "index": 190,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-arts-humanities/english",
     "arrows": "to"
   },
   {
+    "index": 191,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-arts-humanities/english",
     "arrows": "to"
   },
   {
+    "index": 192,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-arts-humanities/english",
     "arrows": "to"
   },
   {
+    "index": 193,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-arts-humanities/english",
     "arrows": "to"
   },
   {
+    "index": 194,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/entrepreneurship",
     "arrows": "to"
   },
   {
+    "index": 195,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/health-and-human-performance-majors/exercise-science-major",
     "arrows": "to"
   },
   {
+    "index": 196,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/exercise-science-minor",
     "arrows": "to"
   },
   {
+    "index": 197,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/film-studies#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINFILM1FLM",
     "arrows": "to"
   },
   {
+    "index": 198,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/family-consumer-sciences/food-nutrional-sciences",
     "arrows": "to"
   },
   {
+    "index": 199,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/food-sciences/food-nutrition-emphasis",
     "arrows": "to"
   },
   {
+    "index": 200,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/food-sciences/sports-exercise-emphasis",
     "arrows": "to"
   },
   {
+    "index": 201,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/french-and-francophone-studies",
     "arrows": "to"
   },
   {
+    "index": 202,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/general-engineering-bs",
     "arrows": "to"
   },
   {
+    "index": 203,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/general-studies#",
     "arrows": "to"
   },
   {
+    "index": 204,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/global-development-major",
     "arrows": "to"
   },
   {
+    "index": 205,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/programs/graduate-cert-christian-studies",
     "arrows": "to"
   },
   {
+    "index": 206,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/health-and-fitness-education-minor",
     "arrows": "to"
   },
   {
+    "index": 207,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/history/history-major-minor",
     "arrows": "to"
   },
   {
+    "index": 208,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20201/schools-college/college-of-arts-sciences-arts-humanities/history/history-copy#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINHISMS1HIS",
     "arrows": "to"
   },
   {
+    "index": 209,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/history/history-major-minor",
     "arrows": "to"
   },
   {
+    "index": 210,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20201/schools-college/college-of-arts-sciences-arts-humanities/history/history-copy#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINHISMS1HIS",
     "arrows": "to"
   },
   {
+    "index": 211,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20201/interdisciplinary/honors-program",
     "arrows": "to"
   },
   {
+    "index": 212,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20201/interdisciplinary/honors-program",
     "arrows": "to"
   },
   {
+    "index": 213,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/family-studies",
     "arrows": "to"
   },
   {
+    "index": 214,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/illustration#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJILLSTRN1ILS",
     "arrows": "to"
   },
   {
+    "index": 215,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/industrial-organizational-psychology-ma",
     "arrows": "to"
   },
   {
+    "index": 216,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 217,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 218,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 219,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 220,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 221,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 222,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 223,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 224,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 225,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
     "arrows": "to"
   },
   {
+    "index": 226,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/information-systems-bs",
     "arrows": "to"
   },
   {
+    "index": 227,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/interactive-computing-art",
     "arrows": "to"
   },
   {
+    "index": 228,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/journalism",
     "arrows": "to"
   },
   {
+    "index": 229,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/communication-and-journalism/minors/journalism-minor",
     "arrows": "to"
   },
   {
+    "index": 230,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/leadership-studies",
     "arrows": "to"
   },
   {
+    "index": 231,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-stem-social-social-science/biology",
     "arrows": "to"
   },
   {
+    "index": 232,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/linguistics-and-cultural-studies",
     "arrows": "to"
   },
   {
+    "index": 233,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/literacy",
     "arrows": "to"
   },
   {
+    "index": 234,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/literacy",
     "arrows": "to"
   },
   {
+    "index": 235,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/programs/master-of-arts",
     "arrows": "to"
   },
   {
+    "index": 236,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/programs/master-of-arts",
     "arrows": "to"
   },
   {
+    "index": 237,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/programs/master-of-arts",
     "arrows": "to"
   },
   {
+    "index": 238,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/programs/master-of-arts",
     "arrows": "to"
   },
   {
+    "index": 239,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary",
     "arrows": "to"
   },
   {
+    "index": 240,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary/programs/master-of-arts",
     "arrows": "to"
   },
   {
+    "index": 241,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/marriage-and-family-therapy",
     "arrows": "to"
   },
   {
+    "index": 242,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/masters-of-arts-in-teaching",
     "arrows": "to"
   },
   {
+    "index": 243,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/graduate-programs/ms-management-da",
     "arrows": "to"
   },
   {
+    "index": 244,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/mathematics/minor",
     "arrows": "to"
   },
   {
+    "index": 245,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/mechanical-engineering",
     "arrows": "to"
   },
   {
+    "index": 246,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/engineering-minors#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINMECHEGR1MEN",
     "arrows": "to"
   },
   {
+    "index": 247,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/medical-family-therapy",
     "arrows": "to"
   },
   {
+    "index": 248,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-minors",
     "arrows": "to"
   },
   {
+    "index": 249,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-major#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1MUS",
     "arrows": "to"
   },
   {
+    "index": 250,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-major",
     "arrows": "to"
   },
   {
+    "index": 251,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/music/degrees/undergraduate-majors/music/performance",
     "arrows": "to"
   },
   {
+    "index": 252,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/music/degrees/undergraduate-majors/music/music-production",
     "arrows": "to"
   },
   {
+    "index": 253,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-minors",
     "arrows": "to"
   },
   {
+    "index": 254,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/nursing",
     "arrows": "to"
   },
   {
+    "index": 255,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/family-consumer-sciences/food-nutrional-sciences#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1ND",
     "arrows": "to"
   },
   {
+    "index": 256,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences/graduate-nursing-program",
     "arrows": "to"
   },
   {
+    "index": 257,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/center-for-professional-education/endorsements/health-fitness-endorsement",
     "arrows": "to"
   },
   {
+    "index": 258,
     "from": "https://spu.edu",
     "to": "https://spu.edu/UGcatalog/schools-college/school-of-education/p-12-certifcation",
     "arrows": "to"
   },
   {
+    "index": 259,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-of-education/p-12-certifcation#{003DF870-FF77-45C8-A6BC-9D7ACC405BCA}",
     "arrows": "to"
   },
   {
+    "index": 260,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-of-education/p-12-certifcation#{003DF870-FF77-45C8-A6BC-9D7ACC405BCA}",
     "arrows": "to"
   },
   {
+    "index": 261,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/philosophy/major",
     "arrows": "to"
   },
   {
+    "index": 262,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/philosophy/minor",
     "arrows": "to"
   },
   {
+    "index": 263,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/philosophy/major",
     "arrows": "to"
   },
   {
+    "index": 264,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/physics/programs",
     "arrows": "to"
   },
   {
+    "index": 265,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/physics/programs",
     "arrows": "to"
   },
   {
+    "index": 266,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/physics/programs",
     "arrows": "to"
   },
   {
+    "index": 267,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/physics/programs",
     "arrows": "to"
   },
   {
+    "index": 268,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-physiology",
     "arrows": "to"
   },
   {
+    "index": 269,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/political-science",
     "arrows": "to"
   },
   {
+    "index": 270,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/political-science",
     "arrows": "to"
   },
   {
+    "index": 271,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/political-science-minor",
     "arrows": "to"
   },
   {
+    "index": 272,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/political-science",
     "arrows": "to"
   },
   {
+    "index": 273,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
     "arrows": "to"
   },
   {
+    "index": 274,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
     "arrows": "to"
   },
   {
+    "index": 275,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
     "arrows": "to"
   },
   {
+    "index": 276,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
     "arrows": "to"
   },
   {
+    "index": 277,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
     "arrows": "to"
   },
   {
+    "index": 278,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
     "arrows": "to"
   },
   {
+    "index": 279,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
     "arrows": "to"
   },
   {
+    "index": 280,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/pre-law",
     "arrows": "to"
   },
   {
+    "index": 281,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/pre-professional-health-programs",
     "arrows": "to"
   },
   {
+    "index": 282,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/principal",
     "arrows": "to"
   },
   {
+    "index": 283,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/programs/professional-studies-program",
     "arrows": "to"
   },
   {
+    "index": 284,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/program-administrator",
     "arrows": "to"
   },
   {
+    "index": 285,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 286,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 287,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 288,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 289,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 290,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 291,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 292,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 293,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
     "arrows": "to"
   },
   {
+    "index": 294,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYABBS1PSY",
     "arrows": "to"
   },
   {
+    "index": 295,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYABBS1PSY",
     "arrows": "to"
   },
   {
+    "index": 296,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYABBS1PSY",
     "arrows": "to"
   },
   {
+    "index": 297,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-psychology-family-community/undergraduate-programs/psychology-majors-minor",
     "arrows": "to"
   },
   {
+    "index": 298,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/school-executive-leadership",
     "arrows": "to"
   },
   {
+    "index": 299,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs",
     "arrows": "to"
   },
   {
+    "index": 300,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/undergraduate-programs/becoming-a-teacher-at-spu",
     "arrows": "to"
   },
   {
+    "index": 301,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/english-cultural-studies-department/social-justice-cultural-studies-major",
     "arrows": "to"
   },
   {
+    "index": 302,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/english-cultural-studies-department/social-justice-cultural-studies-major",
     "arrows": "to"
   },
   {
+    "index": 303,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/english-cultural-studies-department/social-justice-cultural-studies-major",
     "arrows": "to"
   },
   {
+    "index": 304,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/english-cultural-studies-department/social-justice-cultural-studies-major",
     "arrows": "to"
   },
   {
+    "index": 305,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/english-program/social-justice#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1SJC",
     "arrows": "to"
   },
   {
+    "index": 306,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/sociology/majors",
     "arrows": "to"
   },
   {
+    "index": 307,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/sociology/minors",
     "arrows": "to"
   },
   {
+    "index": 308,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/spanish-studies",
     "arrows": "to"
   },
   {
+    "index": 309,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-of-education/special-education-certification#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}SPECC1SPE",
     "arrows": "to"
   },
   {
+    "index": 310,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/undergraduate-programs/special-education-major",
     "arrows": "to"
   },
   {
+    "index": 311,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/undergraduate-programs/special-education-major",
     "arrows": "to"
   },
   {
+    "index": 312,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/undergraduate-programs/special-education-major",
     "arrows": "to"
   },
   {
+    "index": 313,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/interdisciplinary/student-designed-major#",
     "arrows": "to"
   },
   {
+    "index": 314,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/superintendent",
     "arrows": "to"
   },
   {
+    "index": 315,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/undergraduate-programs/becoming-a-teacher-at-spu",
     "arrows": "to"
   },
   {
+    "index": 316,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/theatre/minors",
     "arrows": "to"
   },
   {
+    "index": 317,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/school-of-theology/theology-minors",
     "arrows": "to"
   },
   {
+    "index": 318,
     "from": "https://spu.edu",
     "to": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/sociology-programs/urban-studies#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINURBAN1URB",
     "arrows": "to"
   },
   {
+    "index": 319,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20212/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
     "arrows": "to"
   },
   {
+    "index": 320,
     "from": "https://spu.edu",
     "to": "https://spu.edu/catalog/undergraduate/20223/majors-minors",
     "arrows": "to"
   },
   {
+    "index": 321,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences/sociology/minors",
     "arrows": "to"
   },
   {
+    "index": 322,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/worship-arts-leadership",
     "arrows": "to"
   },
   {
+    "index": 323,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/youth-ministry",
     "arrows": "to"
   },
   {
+    "index": 324,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/majors-academics",
     "arrows": "to"
   },
   {
+    "index": 325,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/degree-programs",
     "arrows": "to"
   },
   {
+    "index": 326,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/education-programs/certification-endorsements",
     "arrows": "to"
   },
   {
+    "index": 327,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/request-info",
     "arrows": "to"
   },
   {
+    "index": 328,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/visit",
     "arrows": "to"
   },
   {
+    "index": 329,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/apply",
     "arrows": "to"
   },
   {
+    "index": 330,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/admissions/request-more-info",
     "arrows": "to"
   },
   {
+    "index": 331,
     "from": "https://spu.edu",
     "to": "https://spu.edu/graduate-admissions/degree-programs",
     "arrows": "to"
   },
   {
+    "index": 332,
     "from": "https://spu.edu",
     "to": "https://admissions.spu.edu/apply/",
     "arrows": "to"
   },
   {
+    "index": 333,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/press-room/Press/usnwr-best-national-eighth-year",
     "arrows": "to"
   },
   {
+    "index": 334,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/request-info",
     "arrows": "to"
   },
   {
+    "index": 335,
     "from": "https://spu.edu",
     "to": "https://spu.edu/diversity/faq/student-profile",
     "arrows": "to"
   },
   {
+    "index": 336,
     "from": "https://spu.edu",
     "to": "https://spu.edu/diversity/faq/student-profile-grad",
     "arrows": "to"
   },
   {
+    "index": 337,
     "from": "https://spu.edu",
     "to": "https://spu.edu/undergraduate-admissions/outcomes",
     "arrows": "to"
   },
   {
+    "index": 338,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-institutional-effectiveness",
     "arrows": "to"
   },
   {
+    "index": 339,
     "from": "https://spu.edu",
     "to": "https://spufalcons.com/news/2024/3/1/copp-named-spus-inaugural-womens-golf-coach.aspx",
     "arrows": "to"
   },
   {
+    "index": 340,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education/diversity-conference",
     "arrows": "to"
   },
   {
+    "index": 341,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/news/articles/2024/jan/library-inaugurations-display",
     "arrows": "to"
   },
   {
+    "index": 342,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/news/articles/2024/jan/percussion-ensemble-concert",
     "arrows": "to"
   },
   {
+    "index": 343,
     "from": "https://spu.edu",
     "to": "https://stories.spu.edu/articles/spu-alum-named-2023-superintendent-of-the-year",
     "arrows": "to"
   },
   {
+    "index": 344,
     "from": "https://spu.edu",
     "to": "https://stories.spu.edu/articles/in-the-business-of-making-dreams-come-true",
     "arrows": "to"
   },
   {
+    "index": 345,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/press-room",
     "arrows": "to"
   },
   {
+    "index": 346,
     "from": "https://spu.edu",
     "to": "https://spu.edu/stories",
     "arrows": "to"
   },
   {
+    "index": 347,
     "from": "https://spu.edu",
     "to": "https://spufalcons.com/",
     "arrows": "to"
   },
   {
+    "index": 348,
     "from": "https://spu.edu",
     "to": "https://stories.spu.edu/articles/enriching-transformations-on-both-sides-of-the-border",
     "arrows": "to"
   },
   {
+    "index": 349,
     "from": "https://spu.edu",
     "to": "https://spu.edu/student-financial-services/financial-aid/fafsa/fafsa-simplification",
     "arrows": "to"
   },
   {
+    "index": 350,
     "from": "https://spu.edu",
     "to": "https://spu.edu/",
     "arrows": "to"
   },
   {
+    "index": 351,
     "from": "https://spu.edu",
     "to": "https://goo.gl/maps/fQq2afgcegNgCeqKA",
     "arrows": "to"
   },
   {
+    "index": 352,
     "from": "https://spu.edu",
     "to": "tel:206-281-2000",
     "arrows": "to"
   },
   {
+    "index": 353,
     "from": "https://spu.edu",
     "to": "https://www.facebook.com/seattle.pacific.university",
     "arrows": "to"
   },
   {
+    "index": 354,
     "from": "https://spu.edu",
     "to": "https://twitter.com/SeattlePacific",
     "arrows": "to"
   },
   {
+    "index": 355,
     "from": "https://spu.edu",
     "to": "https://www.instagram.com/spu_seattlepacific/",
     "arrows": "to"
   },
   {
+    "index": 356,
     "from": "https://spu.edu",
     "to": "https://www.youtube.com/user/SeattlePacific",
     "arrows": "to"
   },
   {
+    "index": 357,
     "from": "https://spu.edu",
     "to": "https://www.linkedin.com/school/seattle-pacific-university/",
     "arrows": "to"
   },
   {
+    "index": 358,
     "from": "https://spu.edu",
     "to": "https://www.tiktok.com/@spu_seattlepacific",
     "arrows": "to"
   },
   {
+    "index": 359,
     "from": "https://spu.edu",
     "to": "https://spu.edu/response",
     "arrows": "to"
   },
   {
+    "index": 360,
     "from": "https://spu.edu",
     "to": "https://spu.edu/stories",
     "arrows": "to"
   },
   {
+    "index": 361,
     "from": "https://spu.edu",
     "to": "https://spu.edu/library",
     "arrows": "to"
   },
   {
+    "index": 362,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/housing-residence-life/housing/meal-plans/dining-services-locations",
     "arrows": "to"
   },
   {
+    "index": 363,
     "from": "https://spu.edu",
     "to": "https://spu.edu/directory",
     "arrows": "to"
   },
   {
+    "index": 364,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/office-of-safety-security",
     "arrows": "to"
   },
   {
+    "index": 365,
     "from": "https://spu.edu",
     "to": "https://spu.edu/bookstore",
     "arrows": "to"
   },
   {
+    "index": 366,
     "from": "https://spu.edu",
     "to": "https://spu.edu/campus-map",
     "arrows": "to"
   },
   {
+    "index": 367,
     "from": "https://spu.edu",
     "to": "https://spu.edu/emergency",
     "arrows": "to"
   },
   {
+    "index": 368,
     "from": "https://spu.edu",
     "to": "https://spu.edu/diversity/spu-diversity-commitment/oiex-land-page",
     "arrows": "to"
   },
   {
+    "index": 369,
     "from": "https://spu.edu",
     "to": "https://spu.edu/about-spu/community-resources/higher-education-emergency-relief-fund-public-reporting",
     "arrows": "to"
   },
   {
+    "index": 370,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/college-of-arts-sciences",
     "arrows": "to"
   },
   {
+    "index": 371,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics",
     "arrows": "to"
   },
   {
+    "index": 372,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-health-sciences",
     "arrows": "to"
   },
   {
+    "index": 373,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-education",
     "arrows": "to"
   },
   {
+    "index": 374,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-psychology-family-community",
     "arrows": "to"
   },
   {
+    "index": 375,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology",
     "arrows": "to"
   },
   {
+    "index": 376,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/seattle-pacific-seminary",
     "arrows": "to"
   },
   {
+    "index": 377,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/center-career-calling",
     "arrows": "to"
   },
   {
+    "index": 378,
     "from": "https://spu.edu",
     "to": "https://spu.edu/centers/cbte/",
     "arrows": "to"
   },
   {
+    "index": 379,
     "from": "https://spu.edu",
     "to": "https://ce.spu.edu/",
     "arrows": "to"
   },
   {
+    "index": 380,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-psychology-family-community/centers-and-initiatives/center-for-relationship-development",
     "arrows": "to"
   },
   {
+    "index": 381,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-business-and-economics/center-for-applied-learning",
     "arrows": "to"
   },
   {
+    "index": 382,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/center-for-integrity-in-business",
     "arrows": "to"
   },
   {
+    "index": 383,
     "from": "https://spu.edu",
     "to": "https://spu.edu/academics/school-of-theology/center-for-worship",
     "arrows": "to"
   },
   {
+    "index": 384,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/center-for-learning",
     "arrows": "to"
   },
   {
+    "index": 385,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/john-perkins-center/",
     "arrows": "to"
   },
   {
+    "index": 386,
     "from": "https://spu.edu",
     "to": "https://wiki.spu.edu/display/POL/Website+Privacy+Policy",
     "arrows": "to"
   },
   {
+    "index": 387,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/human-resources/nondiscrimination-title-ix-hr/access-and-accommodation",
     "arrows": "to"
   },
   {
+    "index": 388,
     "from": "https://spu.edu",
     "to": "https://spu.formstack.com/forms/website_feedback",
     "arrows": "to"
   },
   {
+    "index": 389,
     "from": "https://spu.edu",
     "to": "https://spu.edu/contact-us",
     "arrows": "to"
   },
   {
+    "index": 390,
     "from": "https://spu.edu",
     "to": "https://spu.edu/jobs",
     "arrows": "to"
   },
   {
+    "index": 391,
     "from": "https://spu.edu",
     "to": "https://spu.edu/administration/human-resources/nondiscrimination-title-ix-hr",
     "arrows": "to"

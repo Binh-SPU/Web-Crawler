@@ -1,7 +1,7 @@
 const fs = require("fs");
 const readline = require("readline");
 
-const MAX_CONCURRENT_REQUESTS = 20;
+const MAX_CONCURRENT_REQUESTS = 10;
 
 async function readUrlsFromFile(filePath) {
   try {
@@ -67,8 +67,8 @@ async function fetchDomContentAndParsing(url) {
     });
 
     console.log(`URL: ${url}`);
+
     // console.log(`Links: ${links}`);
-    // console.log("----------------------------------------------------\n");
 
     return { url, links };
   } catch (error) {
@@ -123,10 +123,16 @@ async function crawlWebsite(urls, maxDepth) {
       label: String(nodeIndex++),
     }));
 
+    let edgeIndex = 1;
     const edges = [];
     for (const [source, targets] of Object.entries(graph)) {
       targets.forEach((target) => {
-        edges.push({ from: source, to: target, arrows: "to" });
+        edges.push({
+          index: edgeIndex++,
+          from: source,
+          to: target,
+          arrows: "to",
+        });
       });
     }
 
@@ -134,7 +140,7 @@ async function crawlWebsite(urls, maxDepth) {
     const executionTime = endTime - startTime;
     console.log(`Execution time: ${executionTime} milliseconds`);
 
-    return { graph, visitedUrls, nodes, edges };
+    return { graph, nodes, edges };
   } catch (error) {
     throw error;
   }
