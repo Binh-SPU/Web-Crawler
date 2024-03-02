@@ -1,6 +1,8 @@
 const fs = require("fs");
 const readline = require("readline");
 
+const MAX_CONCURRENT_REQUESTS = 20;
+
 async function readUrlsFromFile(filePath) {
   try {
     const data = await fs.promises.readFile(filePath, "utf8");
@@ -84,25 +86,35 @@ async function crawlWebsite(urls, maxDepth) {
     const queue = urls.map((url) => ({ url, currentDepth: 0 }));
 
     while (queue.length > 0) {
-      const { url, currentDepth } = queue.shift();
-      try {
+      const promises = [];
+
+      while (promises.length < MAX_CONCURRENT_REQUESTS && queue.length > 0) {
+        const { url, currentDepth } = queue.shift();
+
         if (currentDepth < maxDepth && !visitedUrls.has(url)) {
           visitedUrls.add(url);
           if (!nodeSet.has(url)) nodeSet.add(url);
-          const { url: currentUrl, links } = await fetchDomContentAndParsing(
-            url
+
+          promises.push(
+            fetchDomContentAndParsing(url)
+              .then(({ url: currentUrl, links }) => {
+                graph[currentUrl] = links;
+
+                links.forEach((link) => {
+                  if (!visitedUrls.has(link)) {
+                    if (!nodeSet.has(link)) nodeSet.add(link);
+                    queue.push({ url: link, currentDepth: currentDepth + 1 });
+                  }
+                });
+              })
+              .catch((error) => {
+                console.error(`Error crawling URL ${url}:`, error.message);
+              })
           );
-          graph[currentUrl] = links;
-          links.forEach((link) => {
-            if (!visitedUrls.has(link)) {
-              if (!nodeSet.has(link)) nodeSet.add(link);
-              queue.push({ url: link, currentDepth: currentDepth + 1 });
-            }
-          });
         }
-      } catch (error) {
-        console.error(`Error crawling URL ${url}:`, error.message);
       }
+
+      await Promise.all(promises);
     }
 
     let nodeIndex = 1;
