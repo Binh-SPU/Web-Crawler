@@ -75,38 +75,100 @@ async function fetchDomContentAndParsing(url) {
   }
 }
 
-async function crawlWebsite(urls, depth) {
+// async function crawlWebsite(urls, depth) {
+//   try {
+//     const startTime = performance.now();
+
+//     const visitedUrls = new Set();
+//     const graph = {};
+//     async function crawl(url, currentDepth) {
+//       try {
+//         if (currentDepth < depth && !visitedUrls.has(url)) {
+//           visitedUrls.add(new URL(url).href);
+//           //   console.log(`Depth: ${currentDepth}`);
+//           const { url: currentUrl, links } = await fetchDomContentAndParsing(
+//             url
+//           );
+//           graph[currentUrl] = links;
+//           for (const link of links) {
+//             await crawl(link, currentDepth + 1);
+//           }
+//         }
+//       } catch (error) {
+//         console.error(`Error crawling URL ${url}:`, error.message);
+//         // You can add additional error handling or logging here if needed
+//       }
+//     }
+
+//     await Promise.all(
+//       urls.map(async (url) => {
+//         await crawl(url, 0);
+//       })
+//     );
+
+//     const endTime = performance.now();
+//     const executionTime = endTime - startTime;
+//     console.log(`Execution time: ${executionTime} milliseconds`);
+//     console.log(`Visited URLs: ${visitedUrls.size}`);
+
+//     return { graph, visitedUrls };
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+
+async function crawlWebsite(urls, maxDepth) {
   try {
-    const visitedUrls = new Set();
+    const startTime = performance.now();
+
     const graph = {};
-    async function crawl(url, currentDepth) {
+    const visitedUrls = new Set();
+    const nodeSet = new Set();
+    const queue = urls.map((url) => ({ url, currentDepth: 0 }));
+
+    while (queue.length > 0) {
+      const { url, currentDepth } = queue.shift();
       try {
-        if (currentDepth <= depth && !visitedUrls.has(url)) {
-          visitedUrls.add(new URL(url).href);
-          //   console.log(`Depth: ${currentDepth}`);
+        if (currentDepth < maxDepth && !visitedUrls.has(url)) {
+          visitedUrls.add(url);
+          if (!nodeSet.has(url)) nodeSet.add(url);
           const { url: currentUrl, links } = await fetchDomContentAndParsing(
             url
           );
           graph[currentUrl] = links;
-          for (const link of links) {
-            await crawl(link, currentDepth + 1);
-          }
+          links.forEach((link) => {
+            if (!visitedUrls.has(link)) {
+              if (!nodeSet.has(link)) nodeSet.add(link);
+              queue.push({ url: link, currentDepth: currentDepth + 1 });
+            }
+          });
         }
       } catch (error) {
         console.error(`Error crawling URL ${url}:`, error.message);
-        // You can add additional error handling or logging here if needed
       }
     }
 
-    await Promise.all(
-      urls.map(async (url) => {
-        await crawl(url, 0);
-      })
-    );
+    let nodeIndex = 1;
+    const nodes = Array.from(nodeSet).map((url) => ({
+      id: url,
+      labels: nodeIndex++,
+    }));
 
-    return { graph, visitedUrls };
+    const edges = [];
+    for (const [source, targets] of Object.entries(graph)) {
+      targets.forEach((target) => {
+        edges.push({ from: source, to: target });
+      });
+    }
+
+    const endTime = performance.now();
+    const executionTime = endTime - startTime;
+    console.log(`Execution time: ${executionTime} milliseconds`);
+    console.log(`Visited URLs: ${visitedUrls.size}`);
+
+    return { graph, visitedUrls, nodes, edges };
   } catch (error) {
-    console.log(error);
+    throw error;
   }
 }
 
@@ -114,10 +176,12 @@ async function main() {
   try {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
-    const { graph, visitedUrls } = await crawlWebsite(urls, depth);
+    const { graph, nodes, edges } = await crawlWebsite(urls, depth);
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
+    fs.writeFileSync("nodes.json", JSON.stringify(nodes, null, 2));
+    fs.writeFileSync("edges.json", JSON.stringify(edges, null, 2));
     console.log("Graph data has been written to graph_data.json");
   } catch (error) {
     console.error(error);
