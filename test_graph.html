@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fetchJSONData() {
+            fetch("nodes.json")
+                .then((res) => {
+                    if (!res.ok) {
+                        throw new Error
+                            (`HTTP error! Status: ${res.status}`);
+                    }
+                    return res.json();
+                })
+                .then((data) => {
+                    var nodes = new vis.DataSet(data);
+                    console.log("Nodes data:", nodes); // For debugging purposes
+                })
+                .catch((error) => 
+                       console.error("Unable to fetch data:", error));
+        }
+        fetchJSONData();
+    </script>
+</body>
+</html>
