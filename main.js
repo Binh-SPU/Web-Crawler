@@ -203,6 +203,7 @@ function createSquareMatrix(nodes) {
   for (let i = 0; i < nodes.length; i++) {
     matrix[i] = new Array(nodes.length).fill(0);
   }
+
   return matrix;
 }
 
@@ -212,6 +213,7 @@ function Set1SlotInMatrix(matrix, from, to, value) {
 
 function SetTheWholeMatrix(graph, matrix, nodes) {
   for (let i = 0; i < nodes.length; i++) {
+    process.stdout.write(`Node ${i + 1}/${nodes.length}\r`);
     for (let j = 0; j < nodes.length; j++) {
       if (i !== j) {
         const distance = graph.calculateShortestPath(
@@ -226,6 +228,7 @@ function SetTheWholeMatrix(graph, matrix, nodes) {
       }
     }
   }
+
   return matrix;
 }
 
@@ -246,13 +249,14 @@ async function main() {
     const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
     const { graph, nodes, edges } = await crawlWebsite(urls, depth);
-    const mostCentralNode = GetMostCentralNode(nodes, edges);
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
     fs.writeFileSync("nodes.json", JSON.stringify(nodes, null, 2));
     fs.writeFileSync("edges.json", JSON.stringify(edges, null, 2));
     console.log("Web crawling completed successfully!");
+
+    const mostCentralNode = GetMostCentralNode(nodes, edges);
   } catch (error) {
     console.error(error);
   }
