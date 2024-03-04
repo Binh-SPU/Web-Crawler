@@ -1,6 +1,7 @@
 const fs = require("fs");
 const readline = require("readline");
 const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
+const { Worker, Mes } = require("worker_threads");
 
 const MAX_CONCURRENT_REQUESTS = 10;
 
@@ -167,7 +168,16 @@ function GetMostCentralNode(nodes, edges) {
 
   let matrix = createSquareMatrix(nodes);
 
-  matrix = SetTheWholeMatrix(graphJS, matrix, nodes);
+  SetTheWholeMatrix(graphJS, matrix, nodes, edges)
+    .then((resultMatrix) => {
+      console.log("Matrix: ", resultMatrix[0]);
+      return (matrix = resultMatrix);
+    })
+    .catch((error) => {
+      console.error(error); // Handle any errors that may occur
+    });
+
+  // console.log("Matrix: ", matrix);
 
   const inverseDistances = [];
   let mostCentralNode = null;
@@ -211,26 +221,70 @@ function Set1SlotInMatrix(matrix, from, to, value) {
   matrix[from][to] = value;
 }
 
-function SetTheWholeMatrix(graph, matrix, nodes) {
-  for (let i = 0; i < nodes.length; i++) {
-    process.stdout.write(`Node ${i + 1}/${nodes.length}\r`);
-    for (let j = 0; j < nodes.length; j++) {
-      if (i !== j) {
-        const distance = graph.calculateShortestPath(
-          nodes[i].id,
-          nodes[j].id
-        ).length;
-        distance !== 0
-          ? Set1SlotInMatrix(matrix, i, j, distance)
-          : Set1SlotInMatrix(matrix, i, j, Infinity);
-      } else {
-        Set1SlotInMatrix(matrix, i, j, Infinity);
-      }
-    }
+function SetTheWholeMatrix(graph, matrix, nodes, edges) {
+  const numThreads = 4;
+  const chunkSize = Math.ceil(nodes.length / numThreads);
+  const workers = [];
+
+  for (let i = 0; i < numThreads; i++) {
+    const startIndex = i * chunkSize;
+    const endIndex = Math.min((i + 1) * chunkSize, nodes.length);
+    const worker = new Worker("./worker.js", {
+      workerData: { startIndex, endIndex, edges, nodes },
+    });
+    workers.push(worker);
   }
 
-  return matrix;
+  return new Promise((resolve, reject) => {
+    let completedWorkers = 0;
+
+    workers.forEach((worker) => {
+      worker.on("message", (message) => {
+        // console.log("Received message:", message);
+        const { startIndex, endIndex, partialMatrix } = message.partialMatrix;
+
+        for (let i = startIndex; i < endIndex; i++) {
+          matrix[i] = partialMatrix[i - startIndex];
+        }
+
+        // console.log(`matrix: ${matrix}`);
+
+        completedWorkers++;
+        if (completedWorkers === numThreads) {
+          resolve(matrix);
+        }
+      });
+
+      worker.on("error", reject);
+      worker.on("exit", (code) => {
+        if (code !== 0) {
+          reject(new Error(`Worker stopped with exit code ${code}`));
+        }
+      });
+    });
+  });
 }
+
+// function SetTheWholeMatrix(graph, matrix, nodes) {
+//   for (let i = 0; i < nodes.length; i++) {
+//     process.stdout.write(`Node ${i + 1}/${nodes.length}\r`);
+//     for (let j = 0; j < nodes.length; j++) {
+//       if (i !== j) {
+//         const distance = graph.calculateShortestPath(
+//           nodes[i].id,
+//           nodes[j].id
+//         ).length;
+//         distance !== 0
+//           ? Set1SlotInMatrix(matrix, i, j, distance)
+//           : Set1SlotInMatrix(matrix, i, j, Infinity);
+//       } else {
+//         Set1SlotInMatrix(matrix, i, j, Infinity);
+//       }
+//     }
+//   }
+
+//   return matrix;
+// }
 
 function GetSumOfDistance(matrix, index) {
   let sum = 0;
