@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma.js Simple Graph Example</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/2.0.0/sigma.min.js"></script>
 </head>
 <body>
-    <script>
-        function fetchJSONData() {
-            fetch("nodes.json")
-                .then((res) => {
-                    if (!res.ok) {
-                        throw new Error
-                            (`HTTP error! Status: ${res.status}`);
-                    }
-                    return res.json();
-                })
-                .then((data) => {
-                    var nodes = new vis.DataSet(data);
-                    console.log("Nodes data:", nodes); // For debugging purposes
-                })
-                .catch((error) => 
-                       console.error("Unable to fetch data:", error));
-        }
-        fetchJSONData();
-    </script>
+  <div id="graph-container" style="width: 800px; height: 600px;"></div>
+
+  <script>
+    // Initialize Sigma.js
+    const sigmaInstance = new sigma({
+      container: 'graph-container',
+      settings: {
+        defaultNodeColor: '#ec5148'
+      }
+    });
+
+    // Define graph data
+    const graphData = {
+      nodes: [
+        { id: 'node1', label: 'Node 1', x: 0, y: 0, size: 5 },
+        { id: 'node2', label: 'Node 2', x: 100, y: 0, size: 5 },
+        { id: 'node3', label: 'Node 3', x: 50, y: 100, size: 5 }
+      ],
+      edges: [
+        { id: 'edge1', source: 'node1', target: 'node2' },
+        { id: 'edge2', source: 'node2', target: 'node3' },
+        { id: 'edge3', source: 'node3', target: 'node1' }
+      ]
+    };
+
+    // Load graph data into Sigma.js instance
+    sigmaInstance.graph.clear();
+    sigmaInstance.graph.read(graphData);
+    sigmaInstance.refresh();
+  </script>
 </body>
 </html>

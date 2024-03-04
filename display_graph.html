@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Vis.js Example</title>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
-  <style type="text/css">
-    #visualization {
-      width: 100vw;
-      height: 100vh;
-      border: 1px solid lightgray;
-    }
-  </style>
-</head>
-<body>
-
-<div id="visualization"></div>
-
-<script type="text/javascript">
-  // Fetch JSON data for nodes
-  fetch("nodes.json")
-    .then((res) => {
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`);
+  <head>
+    <title>Vis.js Example</title>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style type="text/css">
+      #visualization {
+        width: 100vw;
+        height: 100vh;
+        border: 1px solid lightgray;
       }
-      return res.json();
-    })
-    .then((nodesData) => {
-      // Create a DataSet for nodes
-      var nodes = new vis.DataSet(nodesData);
+    </style>
+  </head>
+  <body>
+    <div id="visualization"></div>
 
-      // Fetch JSON data for edges
-      return fetch("edges.json")
+    <script type="text/javascript">
+      // Fetch JSON data for nodes
+      fetch("nodes.json")
         .then((res) => {
           if (!res.ok) {
             throw new Error(`HTTP error! Status: ${res.status}`);
           }
           return res.json();
         })
-        .then((edgesData) => {
-          // Create a DataSet for edges
-          var edges = new vis.DataSet(edgesData);
+        .then((nodesData) => {
+          // Create a DataSet for nodes
+          var nodes = new vis.DataSet(nodesData);
 
-          // Create a container for the visualization
-          var container = document.getElementById('visualization');
+          // Fetch JSON data for edges
+          return fetch("edges.json")
+            .then((res) => {
+              if (!res.ok) {
+                throw new Error(`HTTP error! Status: ${res.status}`);
+              }
+              return res.json();
+            })
+            .then((edgesData) => {
+              // Create a DataSet for edges
+              var edges = new vis.DataSet(edgesData);
 
-          // Define the data and options for the graph
-          var data = {
-            nodes: nodes,
-            edges: edges
-          };
+              // Create a container for the visualization
+              var container = document.getElementById("visualization");
 
-          var options = {
-            physics: {
-              enabled: false // Disable physics simulation
-            },
-            grid: {
-              enabled: true
-            }
-          };
+              // Define the data and options for the graph
+              var data = {
+                nodes: nodes,
+                edges: edges,
+              };
 
-          // Create the visualization
-          var network = new vis.Network(container, data, options);
+              var options = {
+                nodes: {
+                  shapeProperties: {
+                    interpolation: false, // 'true' for intensive zooming
+                  },
+                },
+                physics: {
+                  stabilization: false,
+                  barnesHut: {
+                    gravitationalConstant: -50000,
+                    springConstant: 0.001,
+                    springLength: 200,
+                  },
+                },
+                interaction: {
+                  hover: false,
+                  selectConnectedEdges: false, // Turn off dragging
+                  tooltipDelay: 200,
+                  hideEdgesOnDrag: true,
+                },
+              };
+
+              // Create the visualization
+              var network = new vis.Network(container, data, options);
+            });
+        })
+        .catch((error) => {
+          console.error("Unable to fetch data:", error);
         });
-    })
-    .catch((error) => {
-      console.error("Unable to fetch data:", error);
-    });
-</script>
-
-</body>
+    </script>
+  </body>
 </html>
