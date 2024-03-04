@@ -1,6 +1,6 @@
 const fs = require("fs");
 const readline = require("readline");
-const dijkstra = require("dijkstrajs");
+const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
 
 const MAX_CONCURRENT_REQUESTS = 10;
 
@@ -79,6 +79,7 @@ async function fetchDomContentAndParsing(url) {
 
 async function crawlWebsite(urls, maxDepth) {
   try {
+    console.log("\nCrawling the web...\n");
     const startTime = performance.now();
 
     const graph = {};
@@ -139,7 +140,10 @@ async function crawlWebsite(urls, maxDepth) {
 
     const endTime = performance.now();
     const executionTime = endTime - startTime;
-    console.log(`Execution time: ${executionTime} milliseconds`);
+    console.log(
+      `\nExecution time of Fetching Web: ${executionTime} milliseconds`
+    );
+    console.log("Finished crawling the web.\n");
 
     return { graph, nodes, edges };
   } catch (error) {
@@ -147,31 +151,97 @@ async function crawlWebsite(urls, maxDepth) {
   }
 }
 
-// function GetDistanceDijkstra(nodes, edges) {
-//   const graphJS = new DirectedGraph();
+function GetMostCentralNode(nodes, edges) {
+  console.log("\nCalculating the most central node...\n");
 
-//   nodes.forEach((node) => {
-//     graphJS.addVertex(node.id, parseInt(node.label));
-//   });
+  const startTime = performance.now();
+  const graphJS = new dijkstra();
 
-//   edges.forEach((edge) => {
-//     graphJS.addEdge(edge.from, edge.to, 1);
-//   });
+  nodes.forEach((node) => {
+    graphJS.addVertex(node.id);
+  });
 
-//   const graph = dijkstra()
-// }
+  edges.forEach((edge) => {
+    graphJS.addEdge(edge.from, edge.to, 1);
+  });
 
-function calculateClosenessCentrality(graph, node) {
-  const numNodes = Object.keys(graph).length;
-  const distances = dijkstra(graph, node);
+  let matrix = createSquareMatrix(nodes);
 
-  let totalDistance = 0;
-  for (const otherNode in distances) {
-    totalDistance += distances[otherNode];
+  matrix = SetTheWholeMatrix(graphJS, matrix, nodes);
+
+  const inverseDistances = [];
+  let mostCentralNode = null;
+  for (let i = 0; i < nodes.length; i++) {
+    inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
+    if (i === 0) {
+      mostCentralNode = {
+        id: nodes[i].id,
+        inverseDistance: inverseDistances[i],
+      };
+    }
+    if (inverseDistances[i] > mostCentralNode.inverseDistance) {
+      mostCentralNode = {
+        id: nodes[i].id,
+        inverseDistance: inverseDistances[i],
+      };
+    }
   }
 
-  const closenessCentrality = numNodes / totalDistance;
-  return closenessCentrality;
+  const endTime = performance.now();
+
+  console.log(
+    `Execution time of Calculating the most central node: ${
+      endTime - startTime
+    } milliseconds`
+  );
+  console.log("Most central node: ", mostCentralNode, "\n");
+  return mostCentralNode;
+}
+
+function createSquareMatrix(nodes) {
+  const matrix = [];
+  for (let i = 0; i < nodes.length; i++) {
+    matrix[i] = new Array(nodes.length).fill(0);
+  }
+
+  return matrix;
+}
+
+function Set1SlotInMatrix(matrix, from, to, value) {
+  matrix[from][to] = value;
+}
+
+function SetTheWholeMatrix(graph, matrix, nodes) {
+  for (let i = 0; i < nodes.length; i++) {
+    process.stdout.write(`Node ${i + 1}/${nodes.length}\r`);
+    for (let j = 0; j < nodes.length; j++) {
+      if (i !== j) {
+        const distance = graph.calculateShortestPath(
+          nodes[i].id,
+          nodes[j].id
+        ).length;
+        distance !== 0
+          ? Set1SlotInMatrix(matrix, i, j, distance)
+          : Set1SlotInMatrix(matrix, i, j, Infinity);
+      } else {
+        Set1SlotInMatrix(matrix, i, j, Infinity);
+      }
+    }
+  }
+
+  return matrix;
+}
+
+function GetSumOfDistance(matrix, index) {
+  let sum = 0;
+  sum = matrix[index].reduce((acc, curr) => {
+    if (curr !== Infinity) {
+      return acc + curr;
+    }
+    return acc;
+  }, 0);
+
+  return sum;
 }
 
 async function main() {
@@ -180,13 +250,13 @@ async function main() {
     const urls = await readUrlsFromFile("urls.txt");
     const { graph, nodes, edges } = await crawlWebsite(urls, depth);
 
-    calculateClosenessCentrality(graph, "https://spu.edu");
-
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
     fs.writeFileSync("nodes.json", JSON.stringify(nodes, null, 2));
     fs.writeFileSync("edges.json", JSON.stringify(edges, null, 2));
     console.log("Web crawling completed successfully!");
+
+    const mostCentralNode = GetMostCentralNode(nodes, edges);
   } catch (error) {
     console.error(error);
   }
