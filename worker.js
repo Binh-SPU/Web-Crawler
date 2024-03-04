@@ -1,3 +1,4 @@
+const { stat } = require("fs");
 const { parentPort, workerData } = require("worker_threads");
 const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
 
@@ -14,14 +15,9 @@ edges.forEach((edge) => {
 });
 
 function calculatePartialMatrix(startIndex, endIndex, graph, nodes) {
-  console.log(`Worker ${startIndex}-${endIndex} started!`);
+  let status = "";
   const partialMatrix = [];
   for (let i = startIndex; i < endIndex; i++) {
-    process.stdout.write(
-      `Node ${
-        i + 1
-      }/${endIndex} in thread ${startIndex} - ${endIndex} processing...\r`
-    );
     const row = [];
     for (let j = 0; j < nodes.length; j++) {
       if (i !== j) {
@@ -34,15 +30,17 @@ function calculatePartialMatrix(startIndex, endIndex, graph, nodes) {
         row.push(Infinity);
       }
     }
+    if (i !== endIndex - 1) {
+      const message = `Node [${i}]/${endIndex} in thread ${startIndex} - ${endIndex} processed\r`;
+      status = "Ongoing";
+      parentPort.postMessage({ message, status });
+    } else {
+      status = "Completed";
+    }
     partialMatrix.push(row);
-    process.stdout.write(
-      `Node ${
-        i + 1
-      }/${endIndex} in thread ${startIndex} - ${endIndex} processed\r`
-    );
   }
 
-  return { startIndex, endIndex, partialMatrix };
+  return { startIndex, endIndex, partialMatrix, status };
 }
 
 const partialMatrix = calculatePartialMatrix(

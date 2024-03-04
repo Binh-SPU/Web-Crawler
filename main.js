@@ -1,7 +1,7 @@
 const fs = require("fs");
 const readline = require("readline");
 const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
-const { Worker, Mes } = require("worker_threads");
+const { Worker } = require("worker_threads");
 
 const MAX_CONCURRENT_REQUESTS = 10;
 
@@ -255,6 +255,11 @@ async function SetTheWholeMatrix(graph, matrix, nodes, edges) {
     const worker = new Worker("./worker.js", {
       workerData: { startIndex, endIndex, edges, nodes },
     });
+    console.log(
+      `Worker ${
+        i + 1
+      } created with startIndex: ${startIndex} and endIndex: ${endIndex}`
+    );
     workers.push(worker);
   }
 
@@ -264,17 +269,21 @@ async function SetTheWholeMatrix(graph, matrix, nodes, edges) {
     workers.forEach((worker) => {
       worker.on("message", (message) => {
         // console.log("Received message:", message);
-        const { startIndex, endIndex, partialMatrix } = message.partialMatrix;
+        if (message.status === "Ongoing") {
+          process.stdout.write(`${message.message}`);
+        } else {
+          const { startIndex, endIndex, partialMatrix } = message.partialMatrix;
 
-        for (let i = startIndex; i < endIndex; i++) {
-          matrix[i] = partialMatrix[i - startIndex];
-        }
+          for (let i = startIndex; i < endIndex; i++) {
+            matrix[i] = partialMatrix[i - startIndex];
+          }
 
-        // console.log(`matrix: ${matrix}`);
+          // console.log(`matrix: ${matrix}`);
 
-        completedWorkers++;
-        if (completedWorkers === numThreads) {
-          resolve(matrix);
+          completedWorkers++;
+          if (completedWorkers === numThreads) {
+            resolve(matrix);
+          }
         }
       });
 
