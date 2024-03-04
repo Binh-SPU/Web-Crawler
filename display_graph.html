@@ -51,12 +51,26 @@
           };
 
           var options = {
-            physics: {
-              enabled: false // Disable physics simulation
+            nodes: {
+              shapeProperties: {
+                interpolation: false    // 'true' for intensive zooming
+              }
             },
-            grid: {
-              enabled: true
+            physics: {
+              stabilization: false,
+              barnesHut: {
+                gravitationalConstant: -50000,
+                springConstant: 0.001,
+                springLength: 200,
+              },
+            },
+            interaction: {
+              hover: false,
+              selectConnectedEdges: false, // Turn off dragging
+              tooltipDelay: 200,
+              hideEdgesOnDrag: true,
             }
+            
           };
 
           // Create the visualization

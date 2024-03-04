@@ -2,7 +2,9 @@
   "dependencies": {
     "@datastructures-js/graph": "^5.3.0",
     "dijkstrajs": "^1.0.3",
+    "graphology": "^0.25.4",
     "jsdom": "^24.0.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "sigma": "^3.0.0-beta.6"
   }
 }

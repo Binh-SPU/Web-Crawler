@@ -4,1095 +4,2535 @@
     "label": "1"
   },
   {
-    "id": "https://spu.edu/alumni",
+    "id": "https://store.steampowered.com",
     "label": "2"
   },
   {
-    "id": "https://spufalcons.com/",
+    "id": "https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_4__global-header",
     "label": "3"
   },
   {
-    "id": "https://spu.edu/library",
+    "id": "https://store.steampowered.com/?snr=1_4_4__global-responsive-menu",
     "label": "4"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/visit",
+    "id": "https://store.steampowered.com/explore/?snr=1_4_4__global-responsive-menu",
     "label": "5"
   },
   {
-    "id": "https://spu.edu/apply",
+    "id": "https://steamcommunity.com/my/wishlist/",
     "label": "6"
   },
   {
-    "id": "https://give.spu.edu/sslpage.aspx",
+    "id": "https://store.steampowered.com/points/shop/?snr=1_4_4__global-responsive-menu",
     "label": "7"
   },
   {
-    "id": "https://web-apps.spu.edu/apps",
+    "id": "https://store.steampowered.com/news/?snr=1_4_4__global-responsive-menu",
     "label": "8"
   },
   {
-    "id": "https://spu.edu/",
+    "id": "https://store.steampowered.com/stats/?snr=1_4_4__global-responsive-menu",
     "label": "9"
   },
   {
-    "id": "https://spu.edu/about-spu",
+    "id": "https://steamcommunity.com/",
     "label": "10"
   },
   {
-    "id": "https://spu.edu/about-spu/the-campus",
+    "id": "https://steamcommunity.com/discussions/",
     "label": "11"
   },
   {
-    "id": "https://spu.edu/about-spu/spu-facts",
+    "id": "https://steamcommunity.com/workshop/",
     "label": "12"
   },
   {
-    "id": "https://spu.edu/voices",
+    "id": "https://steamcommunity.com/market/",
     "label": "13"
   },
   {
-    "id": "https://spu.edu/about-spu/seattle-and-pacific-nw",
+    "id": "https://steamcommunity.com/?subsection=broadcasts",
     "label": "14"
   },
   {
-    "id": "https://spu.edu/about-spu/mission",
+    "id": "https://help.steampowered.com/en/",
     "label": "15"
   },
   {
-    "id": "https://spu.edu/university-leadership",
+    "id": "https://store.steampowered.com/mobile",
     "label": "16"
   },
   {
-    "id": "https://spu.edu/about-spu/news",
+    "id": "https://store.steampowered.com/privacy_agreement/?snr=1_4_4__global-responsive-menu",
     "label": "17"
   },
   {
-    "id": "https://spu.edu/directory",
+    "id": "http://www.valvesoftware.com/legal.htm",
     "label": "18"
   },
   {
-    "id": "https://spu.edu/about-spu/diversity",
+    "id": "https://store.steampowered.com/subscriber_agreement/?snr=1_4_4__global-responsive-menu",
     "label": "19"
   },
   {
-    "id": "https://spu.edu/calendar-and-events",
+    "id": "https://store.steampowered.com/steam_refunds/?snr=1_4_4__global-responsive-menu",
     "label": "20"
   },
   {
-    "id": "https://spu.edu/about-spu/statement-of-faith",
+    "id": "https://store.steampowered.com/?snr=1_4_4__global-header",
     "label": "21"
   },
   {
-    "id": "https://spu.edu/diversity/spu-diversity-commitment/oiex-land-page",
+    "id": "https://store.steampowered.com/explore/?snr=1_4_4__global-header",
     "label": "22"
   },
   {
-    "id": "https://spu.edu/academics",
+    "id": "https://store.steampowered.com/points/shop/?snr=1_4_4__global-header",
     "label": "23"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/majors-academics",
+    "id": "https://store.steampowered.com/news/?snr=1_4_4__global-header",
     "label": "24"
   },
   {
-    "id": "https://spu.edu/graduate-admissions/degree-programs",
+    "id": "https://store.steampowered.com/stats/?snr=1_4_4__global-header",
     "label": "25"
   },
   {
-    "id": "https://spu.edu/sitecore/service/notfound.aspx?item=web%3a%7bFC24E74E-4C12-432B-A304-F553B567F27A%7d%40en",
+    "id": "https://store.steampowered.com/about/?snr=1_4_4__global-header",
     "label": "26"
   },
   {
-    "id": "https://spu.edu/academics/university-scholars",
+    "id": "?l=schinese",
     "label": "27"
   },
   {
-    "id": "https://spu.edu/calendar-and-events/academic",
+    "id": "?l=tchinese",
     "label": "28"
   },
   {
-    "id": "https://spu.edu/catalog",
+    "id": "?l=japanese",
     "label": "29"
   },
   {
-    "id": "https://spu.edu/undergraduate-time-schedule",
+    "id": "?l=koreana",
     "label": "30"
   },
   {
-    "id": "https://spu.edu/graduate-time-schedule",
+    "id": "?l=thai",
     "label": "31"
   },
   {
-    "id": "https://spu.edu/administration/office-of-the-registrar",
+    "id": "?l=bulgarian",
     "label": "32"
   },
   {
-    "id": "https://spu.edu/current-students/grad-resource-hub",
+    "id": "?l=czech",
     "label": "33"
   },
   {
-    "id": "https://spu.edu/current-students/resource-hub",
+    "id": "?l=danish",
     "label": "34"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/majors-academics/study-abroad#title",
+    "id": "?l=german",
     "label": "35"
   },
   {
-    "id": "https://spu.edu/ugcatalog/university-calendar",
+    "id": "?l=spanish",
     "label": "36"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions",
+    "id": "?l=latam",
     "label": "37"
   },
   {
-    "id": "https://spu.edu/student-financial-services/costs/undergrad-tuition-fees",
+    "id": "?l=greek",
     "label": "38"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/scholarships-and-grants",
+    "id": "?l=french",
     "label": "39"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/net-price-calculator#title",
+    "id": "?l=italian",
     "label": "40"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/request-info",
+    "id": "?l=indonesian",
     "label": "41"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/apply",
+    "id": "?l=hungarian",
     "label": "42"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/apply/veterans#title",
+    "id": "?l=dutch",
     "label": "43"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/apply/international-students#title",
+    "id": "?l=norwegian",
     "label": "44"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/transfer-students",
+    "id": "?l=polish",
     "label": "45"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/apply/first-year-students/fy-req-deadlines#title",
+    "id": "?l=portuguese",
     "label": "46"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/virtual-reality-360-video",
+    "id": "?l=brazilian",
     "label": "47"
   },
   {
-    "id": "https://spu.edu/graduate-admissions",
+    "id": "?l=romanian",
     "label": "48"
   },
   {
-    "id": "https://spu.edu/student-financial-services/costs/grad-tuition-fees",
+    "id": "?l=russian",
     "label": "49"
   },
   {
-    "id": "https://spu.edu/grcatalog/costs-financial-aid/financial-aid",
+    "id": "?l=finnish",
     "label": "50"
   },
   {
-    "id": "https://spu.edu/graduate-admissions/admissions/admissions-requirements",
+    "id": "?l=swedish",
     "label": "51"
   },
   {
-    "id": "https://spu.edu/graduate-admissions/admissions/international-admissions",
+    "id": "?l=turkish",
     "label": "52"
   },
   {
-    "id": "https://spu.edu/graduate-admissions/admissions/application-deadlines",
+    "id": "?l=vietnamese",
     "label": "53"
   },
   {
-    "id": "https://ce.spu.edu/",
+    "id": "?l=ukrainian",
     "label": "54"
   },
   {
-    "id": "https://ce.spu.edu/contentManagement.do?method=load&code=CM000011",
+    "id": "https://www.valvesoftware.com/en/contact?contact-person=Translation%20Team%20Feedback",
     "label": "55"
   },
   {
-    "id": "https://spu.edu/student-academic-services/transfer-equivalency-guide",
+    "id": "https://store.steampowered.com/app/1675200/Steam_Deck/?utm_source=steamhometop&snr=1_4_4__125",
     "label": "56"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/apply/transfer-students#transfer-deadlines",
+    "id": "https://store.steampowered.com/digitalgiftcards/?snr=1_4_4__125",
     "label": "57"
   },
   {
-    "id": "https://spu.edu/administration/office-of-student-life",
+    "id": "https://store.steampowered.com/recommended/friendactivity/?snr=1_4_4__125",
     "label": "58"
   },
   {
-    "id": "https://spu.sodexomyway.com/index.html",
+    "id": "https://store.steampowered.com/curators/?snr=1_4_4__125",
     "label": "59"
   },
   {
-    "id": "https://spu.edu/administration/falcon-card-services",
+    "id": "https://store.steampowered.com/tag/browse/?snr=1_4_4__125#yours",
     "label": "60"
   },
   {
-    "id": "https://spu.edu/administration/housing-residence-life/housing",
+    "id": "https://store.steampowered.com/search/?filter=topsellers&snr=1_4_4__125",
     "label": "61"
   },
   {
-    "id": "https://spu.edu/administration/housing-residence-life/residence-life",
+    "id": "https://store.steampowered.com/explore/new/?snr=1_4_4__125",
     "label": "62"
   },
   {
-    "id": "https://spu.edu/administration/conference-services",
+    "id": "https://store.steampowered.com/explore/upcoming/?snr=1_4_4__125",
     "label": "63"
   },
   {
-    "id": "https://spu.edu/student-financial-services/student-employment",
+    "id": "https://store.steampowered.com/specials?snr=1_4_4__125#tab=TopSellers",
     "label": "64"
   },
   {
-    "id": "https://spu.edu/assp",
+    "id": "https://store.steampowered.com/vr/?snr=1_4_4__125",
     "label": "65"
   },
   {
-    "id": "https://spu.edu/administration/office-of-student-life/community-life/student-involvement-leadership",
+    "id": "https://store.steampowered.com/controller/?snr=1_4_4__125",
     "label": "66"
   },
   {
-    "id": "https://spu.edu/current-students/intramurals",
+    "id": "https://store.steampowered.com/greatondeck/?snr=1_4_4__125",
     "label": "67"
   },
   {
-    "id": "https://spu.edu/academics/school-of-theology/center-for-worship",
+    "id": "https://store.steampowered.com/app/1675200/Steam_Deck/?utm_source=steamhomeleftrail&snr=1_4_4__125",
     "label": "68"
   },
   {
-    "id": "https://spu.edu/diversity",
+    "id": "https://store.steampowered.com/steamdeckdock/?snr=1_4_4__125",
     "label": "69"
   },
   {
-    "id": "https://spu.edu/administration/john-perkins-center/",
+    "id": "https://store.steampowered.com/vrhardware/?snr=1_4_4__125",
     "label": "70"
   },
   {
-    "id": "https://spu.edu/administration/multi-ethnic-programs",
+    "id": "https://store.steampowered.com/genre/Free%20to%20Play/?snr=1_4_4__125",
     "label": "71"
   },
   {
-    "id": "https://spu.edu/administration/office-of-university-ministries",
+    "id": "https://store.steampowered.com/genre/Early%20Access/?snr=1_4_4__125",
     "label": "72"
   },
   {
-    "id": "https://spu.edu/administration/student-counseling-center",
+    "id": "https://store.steampowered.com/tags/en/Action/?snr=1_4_4__125",
     "label": "73"
   },
   {
-    "id": "https://spu.edu/administration/health-services",
+    "id": "https://store.steampowered.com/tags/en/Adventure/?snr=1_4_4__125",
     "label": "74"
   },
   {
-    "id": "https://spu.edu/administration/office-of-safety-security",
+    "id": "https://store.steampowered.com/tags/en/Casual/?snr=1_4_4__125",
     "label": "75"
   },
   {
-    "id": "https://spu.edu/wellness-initiative",
+    "id": "https://store.steampowered.com/tags/en/Indie/?snr=1_4_4__125",
     "label": "76"
   },
   {
-    "id": "https://spu.edu/administration/academic-support-center",
+    "id": "https://store.steampowered.com/tags/en/Massively%20Multiplayer/?snr=1_4_4__125",
     "label": "77"
   },
   {
-    "id": "https://spu.edu/administration/bookstore",
+    "id": "https://store.steampowered.com/tags/en/Racing/?snr=1_4_4__125",
     "label": "78"
   },
   {
-    "id": "https://spu.edu/administration/center-career-calling",
+    "id": "https://store.steampowered.com/tags/en/RPG/?snr=1_4_4__125",
     "label": "79"
   },
   {
-    "id": "https://spu.edu/administration/computer-information-systems",
+    "id": "https://store.steampowered.com/tags/en/Simulation/?snr=1_4_4__125",
     "label": "80"
   },
   {
-    "id": "https://spu.edu/administration/center-for-learning/disability-support-services",
+    "id": "https://store.steampowered.com/tags/en/Sports/?snr=1_4_4__125",
     "label": "81"
   },
   {
-    "id": "https://spu.edu/current-students/international-students",
+    "id": "https://store.steampowered.com/tags/en/Strategy/?snr=1_4_4__125",
     "label": "82"
   },
   {
-    "id": "https://spu.edu/student-financial-services",
+    "id": "https://store.steampowered.com/cart/?snr=1_4_4__12",
     "label": "83"
   },
   {
-    "id": "https://spu.edu/academics/seattle-pacific-seminary/news-archive/student-stories",
+    "id": "https://store.steampowered.com/?snr=1_4_4__12",
     "label": "84"
   },
   {
-    "id": "https://www.youtube.com/watch?v=w9Z1_Mx2eR8",
+    "id": "https://store.steampowered.com/communityrecommendations/?snr=1_4_4__12",
     "label": "85"
   },
   {
-    "id": "https://www.youtube.com/watch?v=Dd7lCF6ZNoM",
+    "id": "https://store.steampowered.com/recommended/?snr=1_4_4__12",
     "label": "86"
   },
   {
-    "id": "https://www.facebook.com/seattle.pacific.university",
+    "id": "https://store.steampowered.com/curators/?snr=1_4_4__12",
     "label": "87"
   },
   {
-    "id": "https://twitter.com/SeattlePacific",
+    "id": "javascript:void(0);",
     "label": "88"
   },
   {
-    "id": "https://www.instagram.com/spu_seattlepacific/",
+    "id": "https://store.steampowered.com/charts/topselling/?snr=1_4_4__12",
     "label": "89"
   },
   {
-    "id": "https://www.youtube.com/user/SeattlePacific",
+    "id": "https://store.steampowered.com/charts/mostplayed/?snr=1_4_4__12",
     "label": "90"
   },
   {
-    "id": "https://www.linkedin.com/school/seattle-pacific-university/mycompany/",
+    "id": "https://store.steampowered.com/explore/new/?snr=1_4_4__12",
     "label": "91"
   },
   {
-    "id": "https://www.tiktok.com/@spu_seattlepacific",
+    "id": "https://store.steampowered.com/explore/upcoming/?snr=1_4_4__12",
     "label": "92"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/scholarships-and-grants/first-year-student-scholarships",
+    "id": "https://store.steampowered.com/newshub/?snr=1_4_4__12",
     "label": "93"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/accelerated-masters-of-arts-in-teaching",
+    "id": "https://store.steampowered.com/specials/?snr=1_4_4__12",
     "label": "94"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/accelerated-masters-of-arts-in-teaching-online",
+    "id": "https://store.steampowered.com/news/collection/sales/?snr=1_4_4__12",
     "label": "95"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/accounting",
+    "id": "https://store.steampowered.com/yearinreview?src=7&snr=1_4_4__12",
     "label": "96"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/master-in-teaching-mathematics-and-science",
+    "id": "https://store.steampowered.com/sale/nextfest?snr=1_4_4__12",
     "label": "97"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/master-in-teaching-mathematics-and-science-online",
+    "id": "https://store.steampowered.com/sale/steam_awards?snr=1_4_4__12",
     "label": "98"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/accounting",
+    "id": "https://store.steampowered.com/genre/Free%20to%20Play/?snr=1_4_4__12",
     "label": "99"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/biology/biology-minors",
+    "id": "https://store.steampowered.com/demos/?snr=1_4_4__12",
     "label": "100"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/sociology-programs/anthropology",
+    "id": "https://store.steampowered.com/genre/Early%20Access/?snr=1_4_4__12",
     "label": "101"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/apparel-design",
+    "id": "https://store.steampowered.com/steamdeck/?snr=1_4_4__category-menu",
     "label": "102"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-applied-human-biology",
+    "id": "https://store.steampowered.com/greatondeck/?snr=1_4_4__category-menu",
     "label": "103"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/mathematics/majors/bs-in-applied-mathematics",
+    "id": "https://store.steampowered.com/controller/?snr=1_4_4__12",
     "label": "104"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/engineering-minors",
+    "id": "https://store.steampowered.com/remoteplay_hub/?snr=1_4_4__12",
     "label": "105"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
+    "id": "https://store.steampowered.com/vr/?snr=1_4_4__12",
     "label": "106"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20223/majors-minors",
+    "id": "https://store.steampowered.com/vrhardware/?snr=1_4_4__12",
     "label": "107"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20223/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-minors",
+    "id": "https://store.steampowered.com/software/?snr=1_4_4__12",
     "label": "108"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/history/asian-studies-major-minor",
+    "id": "https://store.steampowered.com/soundtracks?snr=1_4_4__12",
     "label": "109"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/chemistry",
+    "id": "https://store.steampowered.com/macos?snr=1_4_4__12",
     "label": "110"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-minor",
+    "id": "https://store.steampowered.com/linux?snr=1_4_4__12",
     "label": "111"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/ba-biology",
+    "id": "https://store.steampowered.com/pccafe/?snr=1_4_4__12",
     "label": "112"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-biology",
+    "id": "https://store.steampowered.com/category/action/?snr=1_4_4__12",
     "label": "113"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
+    "id": "https://store.steampowered.com/category/arcade_rhythm/?snr=1_4_4__12",
     "label": "114"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/business-administration",
+    "id": "https://store.steampowered.com/category/fighting_martial_arts/?snr=1_4_4__12",
     "label": "115"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-cellular-molecular-biology",
+    "id": "https://store.steampowered.com/category/action_fps/?snr=1_4_4__12",
     "label": "116"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/chemistry/academics",
+    "id": "https://store.steampowered.com/category/hack_and_slash/?snr=1_4_4__12",
     "label": "117"
   },
   {
-    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/christian-discipleship",
+    "id": "https://store.steampowered.com/category/action_run_jump/?snr=1_4_4__12",
     "label": "118"
   },
   {
-    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/christian-scripture",
+    "id": "https://store.steampowered.com/category/action_tps/?snr=1_4_4__12",
     "label": "119"
   },
   {
-    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/christian-theology-major",
+    "id": "https://store.steampowered.com/category/shmup/?snr=1_4_4__12",
     "label": "120"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/classics",
+    "id": "https://store.steampowered.com/category/adventure/?snr=1_4_4__12",
     "label": "121"
   },
   {
-    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/clinical-psychology-phd",
+    "id": "https://store.steampowered.com/category/adventure_rpg/?snr=1_4_4__12",
     "label": "122"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/coaching-science-minor",
+    "id": "https://store.steampowered.com/category/casual/?snr=1_4_4__12",
     "label": "123"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/communication-studies",
+    "id": "https://store.steampowered.com/category/hidden_object/?snr=1_4_4__12",
     "label": "124"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/communication-and-journalism/minors/communication-minor",
+    "id": "https://store.steampowered.com/category/metroidvania/?snr=1_4_4__12",
     "label": "125"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/computer-engineering-bs",
+    "id": "https://store.steampowered.com/category/puzzle_matching/?snr=1_4_4__12",
     "label": "126"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/comp-engineering",
+    "id": "https://store.steampowered.com/category/story_rich/?snr=1_4_4__12",
     "label": "127"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/computer-science-ba-bs",
+    "id": "https://store.steampowered.com/category/visual_novel/?snr=1_4_4__12",
     "label": "128"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20190/degree-requirements?Area=MINCS&Major=1CSC&navRoot={623EB5A9-7EF7-466A-B094-CC30B0D6597F}",
+    "id": "https://store.steampowered.com/category/rpg/?snr=1_4_4__12",
     "label": "129"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/theatre",
+    "id": "https://store.steampowered.com/category/rpg_action/?snr=1_4_4__12",
     "label": "130"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/graduate-programs",
+    "id": "https://store.steampowered.com/category/rpg_jrpg/?snr=1_4_4__12",
     "label": "131"
   },
   {
-    "id": "https://spu.edu/ugcatalog/interdisciplinary/data-analytics",
+    "id": "https://store.steampowered.com/category/rpg_party_based/?snr=1_4_4__12",
     "label": "132"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/digital-education",
+    "id": "https://store.steampowered.com/category/rogue_like_rogue_lite/?snr=1_4_4__12",
     "label": "133"
   },
   {
-    "id": "https://spu.edu/academics/seattle-pacific-seminary/programs/ma-divinity",
+    "id": "https://store.steampowered.com/category/rpg_strategy_tactics/?snr=1_4_4__12",
     "label": "134"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences/graduate-nursing-program/dnp-pathways",
+    "id": "https://store.steampowered.com/category/rpg_turn_based/?snr=1_4_4__12",
     "label": "135"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/early-childhood-education",
+    "id": "https://store.steampowered.com/category/simulation/?snr=1_4_4__12",
     "label": "136"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/early-childhood-education#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJECE1ECE",
+    "id": "https://store.steampowered.com/category/sim_building_automation/?snr=1_4_4__12",
     "label": "137"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-ecology",
+    "id": "https://store.steampowered.com/category/sim_dating/?snr=1_4_4__12",
     "label": "138"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20190/schools-college/business-government-economics/economics",
+    "id": "https://store.steampowered.com/category/sim_farming_crafting/?snr=1_4_4__12",
     "label": "139"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/economics",
+    "id": "https://store.steampowered.com/category/sim_hobby_sim/?snr=1_4_4__12",
     "label": "140"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/economics",
+    "id": "https://store.steampowered.com/category/sim_life/?snr=1_4_4__12",
     "label": "141"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20190/interdisciplinary/ecotheology-minor",
+    "id": "https://store.steampowered.com/category/sim_physics_sandbox/?snr=1_4_4__12",
     "label": "142"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/educational-leadership-med",
+    "id": "https://store.steampowered.com/category/sim_space_flight/?snr=1_4_4__12",
     "label": "143"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/doctoral-programs/doctor-of-education-edd",
+    "id": "https://store.steampowered.com/category/strategy/?snr=1_4_4__12",
     "label": "144"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/doctoral-programs/doctor-of-philosophy-education-phd",
+    "id": "https://store.steampowered.com/category/strategy_card_board/?snr=1_4_4__12",
     "label": "145"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/electrical-engineering-bs",
+    "id": "https://store.steampowered.com/category/strategy_cities_settlements/?snr=1_4_4__12",
     "label": "146"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/ee#{083B8E61-76FB-416D-ABDD-18F08AC397E7}",
+    "id": "https://store.steampowered.com/category/strategy_grand_4x/?snr=1_4_4__12",
     "label": "147"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/undergraduate-programs/elementary-education",
+    "id": "https://store.steampowered.com/category/strategy_military/?snr=1_4_4__12",
     "label": "148"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-arts-humanities/english",
+    "id": "https://store.steampowered.com/category/strategy_real_time/?snr=1_4_4__12",
     "label": "149"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/entrepreneurship",
+    "id": "https://store.steampowered.com/category/tower_defense/?snr=1_4_4__12",
     "label": "150"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/health-and-human-performance-majors/exercise-science-major",
+    "id": "https://store.steampowered.com/category/strategy_turn_based/?snr=1_4_4__12",
     "label": "151"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/exercise-science-minor",
+    "id": "https://store.steampowered.com/category/sports_and_racing/?snr=1_4_4__12",
     "label": "152"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/film-studies#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINFILM1FLM",
+    "id": "https://store.steampowered.com/category/sports/?snr=1_4_4__12",
     "label": "153"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/family-consumer-sciences/food-nutrional-sciences",
+    "id": "https://store.steampowered.com/category/sports_fishing_hunting/?snr=1_4_4__12",
     "label": "154"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/food-sciences/food-nutrition-emphasis",
+    "id": "https://store.steampowered.com/category/sports_individual/?snr=1_4_4__12",
     "label": "155"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/food-sciences/sports-exercise-emphasis",
+    "id": "https://store.steampowered.com/category/racing/?snr=1_4_4__12",
     "label": "156"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/french-and-francophone-studies",
+    "id": "https://store.steampowered.com/category/racing_sim/?snr=1_4_4__12",
     "label": "157"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/general-engineering-bs",
+    "id": "https://store.steampowered.com/category/sports_sim/?snr=1_4_4__12",
     "label": "158"
   },
   {
-    "id": "https://spu.edu/ugcatalog/interdisciplinary/general-studies#",
+    "id": "https://store.steampowered.com/category/sports_team/?snr=1_4_4__12",
     "label": "159"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/global-development-major",
+    "id": "https://store.steampowered.com/category/anime/?snr=1_4_4__12",
     "label": "160"
   },
   {
-    "id": "https://spu.edu/academics/seattle-pacific-seminary/programs/graduate-cert-christian-studies",
+    "id": "https://store.steampowered.com/category/horror/?snr=1_4_4__12",
     "label": "161"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/health-and-fitness-education-minor",
+    "id": "https://store.steampowered.com/category/mystery_detective/?snr=1_4_4__12",
     "label": "162"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/history/history-major-minor",
+    "id": "https://store.steampowered.com/category/exploration_open_world/?snr=1_4_4__12",
     "label": "163"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20201/schools-college/college-of-arts-sciences-arts-humanities/history/history-copy#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINHISMS1HIS",
+    "id": "https://store.steampowered.com/category/science_fiction/?snr=1_4_4__12",
     "label": "164"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20201/interdisciplinary/honors-program",
+    "id": "https://store.steampowered.com/category/space/?snr=1_4_4__12",
     "label": "165"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/family-studies",
+    "id": "https://store.steampowered.com/category/survival/?snr=1_4_4__12",
     "label": "166"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/illustration#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJILLSTRN1ILS",
+    "id": "https://store.steampowered.com/category/multiplayer_coop/?snr=1_4_4__12",
     "label": "167"
   },
   {
-    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/industrial-organizational-psychology-ma",
+    "id": "https://store.steampowered.com/category/multiplayer_lan/?snr=1_4_4__12",
     "label": "168"
   },
   {
-    "id": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
+    "id": "https://store.steampowered.com/category/multiplayer_local_party/?snr=1_4_4__12",
     "label": "169"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/information-systems-bs",
+    "id": "https://store.steampowered.com/category/multiplayer_mmo/?snr=1_4_4__12",
     "label": "170"
   },
   {
-    "id": "https://spu.edu/ugcatalog/interdisciplinary/interactive-computing-art",
+    "id": "https://store.steampowered.com/category/multiplayer/?snr=1_4_4__12",
     "label": "171"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/journalism",
+    "id": "https://store.steampowered.com/category/multiplayer_online_competitive/?snr=1_4_4__12",
     "label": "172"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/communication-and-journalism/minors/journalism-minor",
+    "id": "https://store.steampowered.com/category/singleplayer/?snr=1_4_4__12",
     "label": "173"
   },
   {
-    "id": "https://spu.edu/ugcatalog/interdisciplinary/leadership-studies",
+    "id": "https://store.steampowered.com/points/?snr=1_4_4__12",
     "label": "174"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-stem-social-social-science/biology",
+    "id": "https://store.steampowered.com/news/?snr=1_4_4__12",
     "label": "175"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/linguistics-and-cultural-studies",
+    "id": "https://store.steampowered.com/labs/?snr=1_4_4__12",
     "label": "176"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/literacy",
+    "id": "https://store.steampowered.com/category/dinos_robots?snr=1_4_4__promo-takeunder",
     "label": "177"
   },
   {
-    "id": "https://spu.edu/academics/seattle-pacific-seminary/programs/master-of-arts",
+    "id": "https://store.steampowered.com/specials?snr=1_4_4_#tab=TopSellers",
     "label": "178"
   },
   {
-    "id": "https://spu.edu/academics/seattle-pacific-seminary",
+    "id": "https://store.steampowered.com/app/1501750?snr=1_4_4__40_1",
     "label": "179"
   },
   {
-    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/marriage-and-family-therapy",
+    "id": "https://store.steampowered.com/app/48700?snr=1_4_4__40_1",
     "label": "180"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/masters-of-arts-in-teaching",
+    "id": "https://store.steampowered.com/app/979070/Just_Die_Already/?snr=1_4_4__43_1",
     "label": "181"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/graduate-programs/ms-management-da",
+    "id": "https://store.steampowered.com/app/1229020/Kona_II_Brume/?snr=1_4_4__43_1",
     "label": "182"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/mathematics/minor",
+    "id": "https://store.steampowered.com/app/588650?snr=1_4_4__40_2",
     "label": "183"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/mechanical-engineering",
+    "id": "https://store.steampowered.com/app/457140/Oxygen_Not_Included/?snr=1_4_4__40_2",
     "label": "184"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/engineering-minors#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINMECHEGR1MEN",
+    "id": "https://store.steampowered.com/app/1159690/Voidtrain/?snr=1_4_4__40_2",
     "label": "185"
   },
   {
-    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/medical-family-therapy",
+    "id": "https://store.steampowered.com/app/582660?snr=1_4_4__40_3",
     "label": "186"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-minors",
+    "id": "https://store.steampowered.com/app/1443200/Class_of_09/?snr=1_4_4__43_3",
     "label": "187"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-major#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1MUS",
+    "id": "https://store.steampowered.com/app/1675200/Steam_Deck/?utm_source=steamhome&snr=1_4_4__147",
     "label": "188"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-major",
+    "id": "https://store.steampowered.com/sub/354231/?snr=1_4_4__147",
     "label": "189"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/music/degrees/undergraduate-majors/music/performance",
+    "id": "https://store.steampowered.com/login/?snr=1_4_4__more-content-login",
     "label": "190"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/music/degrees/undergraduate-majors/music/music-production",
+    "id": "https://store.steampowered.com/join/?snr=1_4_4__more-content-login",
     "label": "191"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/nursing",
+    "id": "https://store.steampowered.com/recommender/?snr=1_4_4_",
     "label": "192"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/family-consumer-sciences/food-nutrional-sciences#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1ND",
+    "id": "https://store.steampowered.com/explore/?snr=1_4_4_",
     "label": "193"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences/graduate-nursing-program",
+    "id": "https://store.steampowered.com/?snr=1_4_4__login",
     "label": "194"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/center-for-professional-education/endorsements/health-fitness-endorsement",
+    "id": "https://store.steampowered.com/?snr=1_4_4__join",
     "label": "195"
   },
   {
-    "id": "https://spu.edu/UGcatalog/schools-college/school-of-education/p-12-certifcation",
+    "id": "https://store.steampowered.com/explore/",
     "label": "196"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/p-12-certifcation#{003DF870-FF77-45C8-A6BC-9D7ACC405BCA}",
+    "id": "https://store.steampowered.com/explore/startnew",
     "label": "197"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/philosophy/major",
+    "id": "https://store.steampowered.com/explore/new/?snr=1_4_4__146",
     "label": "198"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/philosophy/minor",
+    "id": "https://store.steampowered.com/search/?specials=1&snr=1_4_4__146",
     "label": "199"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/physics/programs",
+    "id": "https://store.steampowered.com/genre/Free%20to%20Play/?snr=1_4_4__146",
     "label": "200"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-physiology",
+    "id": "https://store.steampowered.com/tag/browse/?snr=1_4_4__146",
     "label": "201"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/political-science",
+    "id": "https://store.steampowered.com/newshub/?snr=1_4_4_",
     "label": "202"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/political-science-minor",
+    "id": "https://store.steampowered.com/publisher/?snr=1_4_4_",
     "label": "203"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
+    "id": "https://store.steampowered.com/search/?filter=ut1&category1=998&os=&snr=1_4_4_",
     "label": "204"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/pre-law",
+    "id": "https://store.steampowered.com/search/?filter=ut2&category1=998&os=&snr=1_4_4_",
     "label": "205"
   },
   {
-    "id": "https://spu.edu/ugcatalog/interdisciplinary/pre-professional-health-programs",
+    "id": "https://store.steampowered.com/app/2292060/Spell_Disk/?snr=1_4_4__145",
     "label": "206"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/principal",
+    "id": "https://store.steampowered.com/app/2606170/Vivaland_Dream_House/?snr=1_4_4__145",
     "label": "207"
   },
   {
-    "id": "https://spu.edu/academics/programs/professional-studies-program",
+    "id": "https://store.steampowered.com/app/2514460/GUARDS/?snr=1_4_4__145",
     "label": "208"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/program-administrator",
+    "id": "https://store.steampowered.com/app/1636710/The_Brew_Barons/?snr=1_4_4__145",
     "label": "209"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
+    "id": "https://store.steampowered.com/app/329970/KeeperRL/?snr=1_4_4__145",
     "label": "210"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYABBS1PSY",
+    "id": "https://store.steampowered.com/app/269770/Secrets_of_Grindea/?snr=1_4_4__145",
     "label": "211"
   },
   {
-    "id": "https://spu.edu/academics/school-of-psychology-family-community/undergraduate-programs/psychology-majors-minor",
+    "id": "https://store.steampowered.com/app/678950/DRAGON_BALL_FighterZ/?snr=1_4_4__145",
     "label": "212"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/school-executive-leadership",
+    "id": "https://store.steampowered.com/app/2802550/GodropPrologue/?snr=1_4_4__145",
     "label": "213"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs",
+    "id": "https://store.steampowered.com/app/2811970/MetaGhost_Prologue/?snr=1_4_4__145",
     "label": "214"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/undergraduate-programs/becoming-a-teacher-at-spu",
+    "id": "https://store.steampowered.com/app/1835240/Spiritfall/?snr=1_4_4__145",
     "label": "215"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/english-cultural-studies-department/social-justice-cultural-studies-major",
+    "id": "https://store.steampowered.com/app/2678990/Minami_Lane/?snr=1_4_4__145",
     "label": "216"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/english-program/social-justice#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1SJC",
+    "id": "https://store.steampowered.com/app/2292260/STAR_WARS_Dark_Forces_Remaster/?snr=1_4_4__145",
     "label": "217"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/sociology/majors",
+    "id": "https://store.steampowered.com/app/1632490/Shashingo_Learn_Japanese_with_Photography/?snr=1_4_4__145",
     "label": "218"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/sociology/minors",
+    "id": "https://store.steampowered.com/app/1996430/Dicefolk/?snr=1_4_4__145",
     "label": "219"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/spanish-studies",
+    "id": "https://store.steampowered.com/app/2803000/100_Dino_Cats/?snr=1_4_4__145",
     "label": "220"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/special-education-certification#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}SPECC1SPE",
+    "id": "https://store.steampowered.com/app/2707900/NIGHTRUNNERS_PROLOGUE/?snr=1_4_4__145",
     "label": "221"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/undergraduate-programs/special-education-major",
+    "id": "https://store.steampowered.com/app/2684500/Alpha_League/?snr=1_4_4__145",
     "label": "222"
   },
   {
-    "id": "https://spu.edu/ugcatalog/interdisciplinary/student-designed-major#",
+    "id": "https://store.steampowered.com/app/1893810/Solium_Infernum/?snr=1_4_4__145",
     "label": "223"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/superintendent",
+    "id": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/?snr=1_4_4__145",
     "label": "224"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences/theatre/minors",
+    "id": "https://store.steampowered.com/app/1458140/Pacific_Drive/?snr=1_4_4__145",
     "label": "225"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/school-of-theology/theology-minors",
+    "id": "https://store.steampowered.com/app/2802430/RuindogPrologue/?snr=1_4_4__145",
     "label": "226"
   },
   {
-    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/sociology-programs/urban-studies#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINURBAN1URB",
+    "id": "https://store.steampowered.com/app/2491720/Kneedle_Knight/?snr=1_4_4__145",
     "label": "227"
   },
   {
-    "id": "https://spu.edu/catalog/undergraduate/20212/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
+    "id": "https://store.steampowered.com/app/1371580/Myth_of_Empires/?snr=1_4_4__145",
     "label": "228"
   },
   {
-    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/worship-arts-leadership",
+    "id": "https://store.steampowered.com/app/899770/Last_Epoch/?snr=1_4_4__145",
     "label": "229"
   },
   {
-    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/youth-ministry",
+    "id": "https://store.steampowered.com/app/1839950/Terminator_Dark_Fate__Defiance/?snr=1_4_4__145",
     "label": "230"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/education-programs/certification-endorsements",
+    "id": "https://store.steampowered.com/app/2379780/Balatro/?snr=1_4_4__145",
     "label": "231"
   },
   {
-    "id": "https://spu.edu/graduate-admissions/admissions/request-more-info",
+    "id": "https://store.steampowered.com/app/2600140/Please_Touch_The_Artwork_2/?snr=1_4_4__145",
     "label": "232"
   },
   {
-    "id": "https://admissions.spu.edu/apply/",
+    "id": "https://store.steampowered.com/app/2570630/20_Small_Mazes/?snr=1_4_4__145",
     "label": "233"
   },
   {
-    "id": "https://spu.edu/about-spu/press-room/Press/usnwr-best-national-eighth-year",
+    "id": "https://store.steampowered.com/app/2692570/Sonder/?snr=1_4_4__145",
     "label": "234"
   },
   {
-    "id": "https://spu.edu/diversity/faq/student-profile",
+    "id": "https://store.steampowered.com/app/850190/Goat_Simulator_3/?snr=1_4_4__145",
     "label": "235"
   },
   {
-    "id": "https://spu.edu/diversity/faq/student-profile-grad",
+    "id": "https://store.steampowered.com/explore/new/?snr=1_4_4__tabsmore",
     "label": "236"
   },
   {
-    "id": "https://spu.edu/undergraduate-admissions/outcomes",
+    "id": "https://store.steampowered.com/app/553850/HELLDIVERS_2/?snr=1_4_4__tab-TopGrossing",
     "label": "237"
   },
   {
-    "id": "https://spu.edu/administration/office-of-institutional-effectiveness",
+    "id": "https://store.steampowered.com/app/1675200/Steam_Deck/?snr=1_4_4__tab-TopGrossing",
     "label": "238"
   },
   {
-    "id": "https://spufalcons.com/news/2024/3/1/copp-named-spus-inaugural-womens-golf-coach.aspx",
+    "id": "https://store.steampowered.com/app/730/CounterStrike_2/?snr=1_4_4__tab-TopGrossing",
     "label": "239"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education/diversity-conference",
+    "id": "https://store.steampowered.com/app/899770/Last_Epoch/?snr=1_4_4__tab-TopGrossing",
     "label": "240"
   },
   {
-    "id": "https://spu.edu/about-spu/news/articles/2024/jan/library-inaugurations-display",
+    "id": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/?snr=1_4_4__tab-TopGrossing",
     "label": "241"
   },
   {
-    "id": "https://spu.edu/about-spu/news/articles/2024/jan/percussion-ensemble-concert",
+    "id": "https://store.steampowered.com/app/1245620/ELDEN_RING/?snr=1_4_4__tab-TopGrossing",
     "label": "242"
   },
   {
-    "id": "https://stories.spu.edu/articles/spu-alum-named-2023-superintendent-of-the-year",
+    "id": "https://store.steampowered.com/app/230410/Warframe/?snr=1_4_4__tab-TopGrossing",
     "label": "243"
   },
   {
-    "id": "https://stories.spu.edu/articles/in-the-business-of-making-dreams-come-true",
+    "id": "https://store.steampowered.com/app/2054970/Dragons_Dogma_2/?snr=1_4_4__tab-TopGrossing",
     "label": "244"
   },
   {
-    "id": "https://spu.edu/about-spu/press-room",
+    "id": "https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/?snr=1_4_4__tab-TopGrossing",
     "label": "245"
   },
   {
-    "id": "https://spu.edu/stories",
+    "id": "https://store.steampowered.com/app/2379780/Balatro/?snr=1_4_4__tab-TopGrossing",
     "label": "246"
   },
   {
-    "id": "https://stories.spu.edu/articles/enriching-transformations-on-both-sides-of-the-border",
+    "id": "https://store.steampowered.com/app/1938090/Call_of_Duty/?snr=1_4_4__tab-TopGrossing",
     "label": "247"
   },
   {
-    "id": "https://spu.edu/student-financial-services/financial-aid/fafsa/fafsa-simplification",
+    "id": "https://store.steampowered.com/app/236390/War_Thunder/?snr=1_4_4__tab-TopGrossing",
     "label": "248"
   },
   {
-    "id": "https://goo.gl/maps/fQq2afgcegNgCeqKA",
+    "id": "https://store.steampowered.com/app/1203620/Enshrouded/?snr=1_4_4__tab-TopGrossing",
     "label": "249"
   },
   {
-    "id": "tel:206-281-2000",
+    "id": "https://store.steampowered.com/app/1623730/Palworld/?snr=1_4_4__tab-TopGrossing",
     "label": "250"
   },
   {
-    "id": "https://www.linkedin.com/school/seattle-pacific-university/",
+    "id": "https://store.steampowered.com/app/2670630/Supermarket_Simulator/?snr=1_4_4__tab-TopGrossing",
     "label": "251"
   },
   {
-    "id": "https://spu.edu/response",
+    "id": "https://store.steampowered.com/app/1942660/WWE_2K23/?snr=1_4_4__tab-TopGrossing",
     "label": "252"
   },
   {
-    "id": "https://spu.edu/administration/housing-residence-life/housing/meal-plans/dining-services-locations",
+    "id": "https://store.steampowered.com/app/2477340/Expeditions_A_MudRunner_Game/?snr=1_4_4__tab-TopGrossing",
     "label": "253"
   },
   {
-    "id": "https://spu.edu/bookstore",
+    "id": "https://store.steampowered.com/app/1172470/Apex_Legends/?snr=1_4_4__tab-TopGrossing",
     "label": "254"
   },
   {
-    "id": "https://spu.edu/campus-map",
+    "id": "https://store.steampowered.com/app/1158310/Crusader_Kings_III/?snr=1_4_4__tab-TopGrossing",
     "label": "255"
   },
   {
-    "id": "https://spu.edu/emergency",
+    "id": "https://store.steampowered.com/app/381210/Dead_by_Daylight/?snr=1_4_4__tab-TopGrossing",
     "label": "256"
   },
   {
-    "id": "https://spu.edu/about-spu/community-resources/higher-education-emergency-relief-fund-public-reporting",
+    "id": "https://store.steampowered.com/app/1599340/Lost_Ark/?snr=1_4_4__tab-TopGrossing",
     "label": "257"
   },
   {
-    "id": "https://spu.edu/academics/college-of-arts-sciences",
+    "id": "https://store.steampowered.com/app/2338770/NBA_2K24/?snr=1_4_4__tab-TopGrossing",
     "label": "258"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics",
+    "id": "https://store.steampowered.com/app/1085660/Destiny_2/?snr=1_4_4__tab-TopGrossing",
     "label": "259"
   },
   {
-    "id": "https://spu.edu/academics/school-of-health-sciences",
+    "id": "https://store.steampowered.com/app/1778820/TEKKEN_8/?snr=1_4_4__tab-TopGrossing",
     "label": "260"
   },
   {
-    "id": "https://spu.edu/academics/school-of-education",
+    "id": "https://store.steampowered.com/app/306130/The_Elder_Scrolls_Online/?snr=1_4_4__tab-TopGrossing",
     "label": "261"
   },
   {
-    "id": "https://spu.edu/academics/school-of-psychology-family-community",
+    "id": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/?snr=1_4_4__tab-TopGrossing",
     "label": "262"
   },
   {
-    "id": "https://spu.edu/academics/school-of-theology",
+    "id": "https://store.steampowered.com/app/582660/Black_Desert/?snr=1_4_4__tab-TopGrossing",
     "label": "263"
   },
   {
-    "id": "https://spu.edu/centers/cbte/",
+    "id": "https://store.steampowered.com/app/1962663/Call_of_Duty_Warzone/?snr=1_4_4__tab-TopGrossing",
     "label": "264"
   },
   {
-    "id": "https://spu.edu/academics/school-of-psychology-family-community/centers-and-initiatives/center-for-relationship-development",
+    "id": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/?snr=1_4_4__tab-TopGrossing",
     "label": "265"
   },
   {
-    "id": "https://spu.edu/academics/school-of-business-and-economics/center-for-applied-learning",
+    "id": "https://store.steampowered.com/app/582010/Monster_Hunter_World/?snr=1_4_4__tab-TopGrossing",
     "label": "266"
   },
   {
-    "id": "https://spu.edu/academics/center-for-integrity-in-business",
+    "id": "https://store.steampowered.com/search/?filter=topsellers&os=win&snr=1_4_4__tabsmore",
     "label": "267"
   },
   {
-    "id": "https://spu.edu/administration/center-for-learning",
+    "id": "https://store.steampowered.com/search/?filter=globaltopsellers&os=win&snr=1_4_4__tabsmore",
     "label": "268"
   },
   {
-    "id": "https://wiki.spu.edu/display/POL/Website+Privacy+Policy",
+    "id": "https://store.steampowered.com/search/?filter=topsellers&os=win&hidef2p=1&snr=1_4_4__tabsmore",
     "label": "269"
   },
   {
-    "id": "https://spu.edu/administration/human-resources/nondiscrimination-title-ix-hr/access-and-accommodation",
+    "id": "https://store.steampowered.com/search/?filter=globaltopsellers&os=win&hidef2p=1&snr=1_4_4__tabsmore",
     "label": "270"
   },
   {
-    "id": "https://spu.formstack.com/forms/website_feedback",
+    "id": "https://store.steampowered.com/app/2639400/Space_Will/?snr=1_4_4__tab-Upcoming",
     "label": "271"
   },
   {
-    "id": "https://spu.edu/contact-us",
+    "id": "https://store.steampowered.com/app/1951410/WE_ARE_FOOTBALL_2024/?snr=1_4_4__tab-Upcoming",
     "label": "272"
   },
   {
-    "id": "https://spu.edu/jobs",
+    "id": "https://store.steampowered.com/app/2317880/Bullet_Bunny/?snr=1_4_4__tab-Upcoming",
     "label": "273"
   },
   {
-    "id": "https://spu.edu/administration/human-resources/nondiscrimination-title-ix-hr",
+    "id": "https://store.steampowered.com/app/2194730/ServiceIT_You_can_do_IT/?snr=1_4_4__tab-Upcoming",
     "label": "274"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2216660/Mortal_Glory_2/?snr=1_4_4__tab-Upcoming",
+    "label": "275"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1684350/The_Thaumaturge/?snr=1_4_4__tab-Upcoming",
+    "label": "276"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2659900/Sixty_Four/?snr=1_4_4__tab-Upcoming",
+    "label": "277"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2258870/Kingdom_The_Blood/?snr=1_4_4__tab-Upcoming",
+    "label": "278"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1226970/Disco_Simulator/?snr=1_4_4__tab-Upcoming",
+    "label": "279"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2477340/Expeditions_A_MudRunner_Game/?snr=1_4_4__tab-Upcoming",
+    "label": "280"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2085370/Classified_France_44/?snr=1_4_4__tab-Upcoming",
+    "label": "281"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1993180/Quilts_and_Cats_of_Calico/?snr=1_4_4__tab-Upcoming",
+    "label": "282"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1330560/Hairdresser_Simulator/?snr=1_4_4__tab-Upcoming",
+    "label": "283"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2275020/Backrooms_Rec/?snr=1_4_4__tab-Upcoming",
+    "label": "284"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2845260/100_March_Cats/?snr=1_4_4__tab-Upcoming",
+    "label": "285"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2497920/A_Difficult_Game_About_Climbing/?snr=1_4_4__tab-Upcoming",
+    "label": "286"
+  },
+  {
+    "id": "https://store.steampowered.com/app/809060/REVEIL/?snr=1_4_4__tab-Upcoming",
+    "label": "287"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1561340/Berserk_Boy/?snr=1_4_4__tab-Upcoming",
+    "label": "288"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1394960/Winter_Survival/?snr=1_4_4__tab-Upcoming",
+    "label": "289"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2143420/Chasing_the_Unseen/?snr=1_4_4__tab-Upcoming",
+    "label": "290"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1351240/Taxi_Life_A_City_Driving_Simulator/?snr=1_4_4__tab-Upcoming",
+    "label": "291"
+  },
+  {
+    "id": "https://store.steampowered.com/app/977510/Time_to_Morp/?snr=1_4_4__tab-Upcoming",
+    "label": "292"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1808680/Snufkin_Melody_of_Moominvalley/?snr=1_4_4__tab-Upcoming",
+    "label": "293"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2333510/Blade_Prince_Academy/?snr=1_4_4__tab-Upcoming",
+    "label": "294"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1159090/Zoria_Age_of_Shattering/?snr=1_4_4__tab-Upcoming",
+    "label": "295"
+  },
+  {
+    "id": "https://store.steampowered.com/app/378690/Potions_A_Curious_Tale/?snr=1_4_4__tab-Upcoming",
+    "label": "296"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1751680/A_Twisted_Tale/?snr=1_4_4__tab-Upcoming",
+    "label": "297"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2214000/Top_Racer_Collection/?snr=1_4_4__tab-Upcoming",
+    "label": "298"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1734070/Touhou_Red_Empress_Devil/?snr=1_4_4__tab-Upcoming",
+    "label": "299"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2403260/Ancient_Weapon_Holly/?snr=1_4_4__tab-Upcoming",
+    "label": "300"
+  },
+  {
+    "id": "https://store.steampowered.com/explore/upcoming/?snr=1_4_4__tabsmore",
+    "label": "301"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/?snr=1_4_4__tab-Specials",
+    "label": "302"
+  },
+  {
+    "id": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/?snr=1_4_4__tab-Specials",
+    "label": "303"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2399830/ARK_Survival_Ascended/?snr=1_4_4__tab-Specials",
+    "label": "304"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1118010/Monster_Hunter_World_Iceborne/?snr=1_4_4__tab-Specials",
+    "label": "305"
+  },
+  {
+    "id": "https://store.steampowered.com/app/582010/Monster_Hunter_World/?snr=1_4_4__tab-Specials",
+    "label": "306"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/?snr=1_4_4__tab-Specials",
+    "label": "307"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2050650/Resident_Evil_4/?snr=1_4_4__tab-Specials",
+    "label": "308"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/?snr=1_4_4__tab-Specials",
+    "label": "309"
+  },
+  {
+    "id": "https://store.steampowered.com/app/2338770/NBA_2K24/?snr=1_4_4__tab-Specials",
+    "label": "310"
+  },
+  {
+    "id": "https://store.steampowered.com/app/646570/Slay_the_Spire/?snr=1_4_4__tab-Specials",
+    "label": "311"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1443200/Class_of_09/?snr=1_4_4__tab-Specials",
+    "label": "312"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1229490/ULTRAKILL/?snr=1_4_4__tab-Specials",
+    "label": "313"
+  },
+  {
+    "id": "https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/?snr=1_4_4__tab-Specials",
+    "label": "314"
+  },
+  {
+    "id": "https://store.steampowered.com/sub/692569/?snr=1_4_4__tab-Specials",
+    "label": "315"
+  },
+  {
+    "id": "https://store.steampowered.com/app/686810/Hell_Let_Loose/?snr=1_4_4__tab-Specials",
+    "label": "316"
+  },
+  {
+    "id": "https://store.steampowered.com/sub/129576/?snr=1_4_4__tab-Specials",
+    "label": "317"
+  },
+  {
+    "id": "https://store.steampowered.com/app/588650/Dead_Cells/?snr=1_4_4__tab-Specials",
+    "label": "318"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1364780/Street_Fighter_6/?snr=1_4_4__tab-Specials",
+    "label": "319"
+  },
+  {
+    "id": "https://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/?snr=1_4_4__tab-Specials",
+    "label": "320"
+  },
+  {
+    "id": "https://store.steampowered.com/app/457140/Oxygen_Not_Included/?snr=1_4_4__tab-Specials",
+    "label": "321"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1159690/Voidtrain/?snr=1_4_4__tab-Specials",
+    "label": "322"
+  },
+  {
+    "id": "https://store.steampowered.com/app/692890/Roboquest/?snr=1_4_4__tab-Specials",
+    "label": "323"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1501750/Lords_of_the_Fallen/?snr=1_4_4__tab-Specials",
+    "label": "324"
+  },
+  {
+    "id": "https://store.steampowered.com/app/954740/Terminator_Resistance/?snr=1_4_4__tab-Specials",
+    "label": "325"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1605220/Dune_Spice_Wars/?snr=1_4_4__tab-Specials",
+    "label": "326"
+  },
+  {
+    "id": "https://store.steampowered.com/sub/823469/?snr=1_4_4__tab-Specials",
+    "label": "327"
+  },
+  {
+    "id": "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/?snr=1_4_4__tab-Specials",
+    "label": "328"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1135690/Unpacking/?snr=1_4_4__tab-Specials",
+    "label": "329"
+  },
+  {
+    "id": "https://store.steampowered.com/app/397540/Borderlands_3/?snr=1_4_4__tab-Specials",
+    "label": "330"
+  },
+  {
+    "id": "https://store.steampowered.com/app/979070/Just_Die_Already/?snr=1_4_4__tab-Specials",
+    "label": "331"
+  },
+  {
+    "id": "https://store.steampowered.com/app/954850/Kerbal_Space_Program_2/?snr=1_4_4__tab-Specials",
+    "label": "332"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1262350/SIGNALIS/?snr=1_4_4__tab-Specials",
+    "label": "333"
+  },
+  {
+    "id": "https://store.steampowered.com/app/48700/Mount__Blade_Warband/?snr=1_4_4__tab-Specials",
+    "label": "334"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1681430/RoboCop_Rogue_City/?snr=1_4_4__tab-Specials",
+    "label": "335"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1669000/Age_of_Wonders_4/?snr=1_4_4__tab-Specials",
+    "label": "336"
+  },
+  {
+    "id": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/?snr=1_4_4__tab-Specials",
+    "label": "337"
+  },
+  {
+    "id": "https://store.steampowered.com/app/270880/American_Truck_Simulator/?snr=1_4_4__tab-Specials",
+    "label": "338"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1676840/For_The_King_II/?snr=1_4_4__tab-Specials",
+    "label": "339"
+  },
+  {
+    "id": "https://store.steampowered.com/app/1286680/Tiny_Tinas_Wonderlands/?snr=1_4_4__tab-Specials",
+    "label": "340"
+  },
+  {
+    "id": "https://store.steampowered.com/sub/744210/?snr=1_4_4__tab-Specials",
+    "label": "341"
+  },
+  {
+    "id": "https://store.steampowered.com/specials?snr=1_4_4__tabsmore#tab=TopSellers",
+    "label": "342"
+  },
+  {
+    "id": "https://store.steampowered.com/sale/top_january_2024?snr=1_4_4__148",
+    "label": "343"
+  },
+  {
+    "id": "https://steamcommunity.com/?subsection=broadcasts&browsefilter=partner_streams",
+    "label": "344"
+  },
+  {
+    "id": "https://store.steampowered.com/recommended/friendactivity/?snr=1_4_4__138",
+    "label": "345"
+  },
+  {
+    "id": "https://store.steampowered.com/vr/?snr=1_4_4_",
+    "label": "346"
+  },
+  {
+    "id": "http://www.valvesoftware.com/",
+    "label": "347"
+  },
+  {
+    "id": "https://store.steampowered.com/privacy_agreement/?snr=1_44_44_",
+    "label": "348"
+  },
+  {
+    "id": "https://store.steampowered.com/legal/?snr=1_44_44_",
+    "label": "349"
+  },
+  {
+    "id": "https://store.steampowered.com/subscriber_agreement/?snr=1_44_44_",
+    "label": "350"
+  },
+  {
+    "id": "https://store.steampowered.com/steam_refunds/?snr=1_44_44_",
+    "label": "351"
+  },
+  {
+    "id": "https://store.steampowered.com/account/cookiepreferences/?snr=1_44_44_",
+    "label": "352"
+  },
+  {
+    "id": "http://www.valvesoftware.com/about",
+    "label": "353"
+  },
+  {
+    "id": "http://www.steampowered.com/steamworks/",
+    "label": "354"
+  },
+  {
+    "id": "https://partner.steamgames.com/steamdirect",
+    "label": "355"
+  },
+  {
+    "id": "https://help.steampowered.com/en/?snr=1_44_44_",
+    "label": "356"
+  },
+  {
+    "id": "https://store.steampowered.com/hardware_recycling/?snr=1_44_44_",
+    "label": "357"
+  },
+  {
+    "id": "https://store.steampowered.com/digitalgiftcards/?snr=1_44_44_",
+    "label": "358"
+  },
+  {
+    "id": "https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.facebook.com%2FSteam",
+    "label": "359"
+  },
+  {
+    "id": "http://twitter.com/steam",
+    "label": "360"
+  },
+  {
+    "id": "https://store.steampowered.com/explore/random/",
+    "label": "361"
+  },
+  {
+    "id": "https://spu.edu/alumni",
+    "label": "362"
+  },
+  {
+    "id": "https://spufalcons.com/",
+    "label": "363"
+  },
+  {
+    "id": "https://spu.edu/library",
+    "label": "364"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/visit",
+    "label": "365"
+  },
+  {
+    "id": "https://spu.edu/apply",
+    "label": "366"
+  },
+  {
+    "id": "https://give.spu.edu/sslpage.aspx",
+    "label": "367"
+  },
+  {
+    "id": "https://web-apps.spu.edu/apps",
+    "label": "368"
+  },
+  {
+    "id": "https://spu.edu/",
+    "label": "369"
+  },
+  {
+    "id": "https://spu.edu/about-spu",
+    "label": "370"
+  },
+  {
+    "id": "https://spu.edu/about-spu/the-campus",
+    "label": "371"
+  },
+  {
+    "id": "https://spu.edu/about-spu/spu-facts",
+    "label": "372"
+  },
+  {
+    "id": "https://spu.edu/voices",
+    "label": "373"
+  },
+  {
+    "id": "https://spu.edu/about-spu/seattle-and-pacific-nw",
+    "label": "374"
+  },
+  {
+    "id": "https://spu.edu/about-spu/mission",
+    "label": "375"
+  },
+  {
+    "id": "https://spu.edu/university-leadership",
+    "label": "376"
+  },
+  {
+    "id": "https://spu.edu/about-spu/news",
+    "label": "377"
+  },
+  {
+    "id": "https://spu.edu/directory",
+    "label": "378"
+  },
+  {
+    "id": "https://spu.edu/about-spu/diversity",
+    "label": "379"
+  },
+  {
+    "id": "https://spu.edu/calendar-and-events",
+    "label": "380"
+  },
+  {
+    "id": "https://spu.edu/about-spu/statement-of-faith",
+    "label": "381"
+  },
+  {
+    "id": "https://spu.edu/diversity/spu-diversity-commitment/oiex-land-page",
+    "label": "382"
+  },
+  {
+    "id": "https://spu.edu/academics",
+    "label": "383"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/majors-academics",
+    "label": "384"
+  },
+  {
+    "id": "https://spu.edu/graduate-admissions/degree-programs",
+    "label": "385"
+  },
+  {
+    "id": "https://spu.edu/sitecore/service/notfound.aspx?item=web%3a%7bFC24E74E-4C12-432B-A304-F553B567F27A%7d%40en",
+    "label": "386"
+  },
+  {
+    "id": "https://spu.edu/academics/university-scholars",
+    "label": "387"
+  },
+  {
+    "id": "https://spu.edu/calendar-and-events/academic",
+    "label": "388"
+  },
+  {
+    "id": "https://spu.edu/catalog",
+    "label": "389"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-time-schedule",
+    "label": "390"
+  },
+  {
+    "id": "https://spu.edu/graduate-time-schedule",
+    "label": "391"
+  },
+  {
+    "id": "https://spu.edu/administration/office-of-the-registrar",
+    "label": "392"
+  },
+  {
+    "id": "https://spu.edu/current-students/grad-resource-hub",
+    "label": "393"
+  },
+  {
+    "id": "https://spu.edu/current-students/resource-hub",
+    "label": "394"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/majors-academics/study-abroad#title",
+    "label": "395"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/university-calendar",
+    "label": "396"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions",
+    "label": "397"
+  },
+  {
+    "id": "https://spu.edu/student-financial-services/costs/undergrad-tuition-fees",
+    "label": "398"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/scholarships-and-grants",
+    "label": "399"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/net-price-calculator#title",
+    "label": "400"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/request-info",
+    "label": "401"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/apply",
+    "label": "402"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/apply/veterans#title",
+    "label": "403"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/apply/international-students#title",
+    "label": "404"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/transfer-students",
+    "label": "405"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/apply/first-year-students/fy-req-deadlines#title",
+    "label": "406"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/virtual-reality-360-video",
+    "label": "407"
+  },
+  {
+    "id": "https://spu.edu/graduate-admissions",
+    "label": "408"
+  },
+  {
+    "id": "https://spu.edu/student-financial-services/costs/grad-tuition-fees",
+    "label": "409"
+  },
+  {
+    "id": "https://spu.edu/grcatalog/costs-financial-aid/financial-aid",
+    "label": "410"
+  },
+  {
+    "id": "https://spu.edu/graduate-admissions/admissions/admissions-requirements",
+    "label": "411"
+  },
+  {
+    "id": "https://spu.edu/graduate-admissions/admissions/international-admissions",
+    "label": "412"
+  },
+  {
+    "id": "https://spu.edu/graduate-admissions/admissions/application-deadlines",
+    "label": "413"
+  },
+  {
+    "id": "https://ce.spu.edu/",
+    "label": "414"
+  },
+  {
+    "id": "https://ce.spu.edu/contentManagement.do?method=load&code=CM000011",
+    "label": "415"
+  },
+  {
+    "id": "https://spu.edu/student-academic-services/transfer-equivalency-guide",
+    "label": "416"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/apply/transfer-students#transfer-deadlines",
+    "label": "417"
+  },
+  {
+    "id": "https://spu.edu/administration/office-of-student-life",
+    "label": "418"
+  },
+  {
+    "id": "https://spu.sodexomyway.com/index.html",
+    "label": "419"
+  },
+  {
+    "id": "https://spu.edu/administration/falcon-card-services",
+    "label": "420"
+  },
+  {
+    "id": "https://spu.edu/administration/housing-residence-life/housing",
+    "label": "421"
+  },
+  {
+    "id": "https://spu.edu/administration/housing-residence-life/residence-life",
+    "label": "422"
+  },
+  {
+    "id": "https://spu.edu/administration/conference-services",
+    "label": "423"
+  },
+  {
+    "id": "https://spu.edu/student-financial-services/student-employment",
+    "label": "424"
+  },
+  {
+    "id": "https://spu.edu/assp",
+    "label": "425"
+  },
+  {
+    "id": "https://spu.edu/administration/office-of-student-life/community-life/student-involvement-leadership",
+    "label": "426"
+  },
+  {
+    "id": "https://spu.edu/current-students/intramurals",
+    "label": "427"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-theology/center-for-worship",
+    "label": "428"
+  },
+  {
+    "id": "https://spu.edu/diversity",
+    "label": "429"
+  },
+  {
+    "id": "https://spu.edu/administration/john-perkins-center/",
+    "label": "430"
+  },
+  {
+    "id": "https://spu.edu/administration/multi-ethnic-programs",
+    "label": "431"
+  },
+  {
+    "id": "https://spu.edu/administration/office-of-university-ministries",
+    "label": "432"
+  },
+  {
+    "id": "https://spu.edu/administration/student-counseling-center",
+    "label": "433"
+  },
+  {
+    "id": "https://spu.edu/administration/health-services",
+    "label": "434"
+  },
+  {
+    "id": "https://spu.edu/administration/office-of-safety-security",
+    "label": "435"
+  },
+  {
+    "id": "https://spu.edu/wellness-initiative",
+    "label": "436"
+  },
+  {
+    "id": "https://spu.edu/administration/academic-support-center",
+    "label": "437"
+  },
+  {
+    "id": "https://spu.edu/administration/bookstore",
+    "label": "438"
+  },
+  {
+    "id": "https://spu.edu/administration/center-career-calling",
+    "label": "439"
+  },
+  {
+    "id": "https://spu.edu/administration/computer-information-systems",
+    "label": "440"
+  },
+  {
+    "id": "https://spu.edu/administration/center-for-learning/disability-support-services",
+    "label": "441"
+  },
+  {
+    "id": "https://spu.edu/current-students/international-students",
+    "label": "442"
+  },
+  {
+    "id": "https://spu.edu/student-financial-services",
+    "label": "443"
+  },
+  {
+    "id": "https://spu.edu/academics/seattle-pacific-seminary/news-archive/student-stories",
+    "label": "444"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=w9Z1_Mx2eR8",
+    "label": "445"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=Dd7lCF6ZNoM",
+    "label": "446"
+  },
+  {
+    "id": "https://www.facebook.com/seattle.pacific.university",
+    "label": "447"
+  },
+  {
+    "id": "https://twitter.com/SeattlePacific",
+    "label": "448"
+  },
+  {
+    "id": "https://www.instagram.com/spu_seattlepacific/",
+    "label": "449"
+  },
+  {
+    "id": "https://www.youtube.com/user/SeattlePacific",
+    "label": "450"
+  },
+  {
+    "id": "https://www.linkedin.com/school/seattle-pacific-university/mycompany/",
+    "label": "451"
+  },
+  {
+    "id": "https://www.tiktok.com/@spu_seattlepacific",
+    "label": "452"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/scholarships-financial-aid/scholarships-and-grants/first-year-student-scholarships",
+    "label": "453"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/accelerated-masters-of-arts-in-teaching",
+    "label": "454"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/accelerated-masters-of-arts-in-teaching-online",
+    "label": "455"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/accounting",
+    "label": "456"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/master-in-teaching-mathematics-and-science",
+    "label": "457"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/master-in-teaching-mathematics-and-science-online",
+    "label": "458"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/accounting",
+    "label": "459"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/biology/biology-minors",
+    "label": "460"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/sociology-programs/anthropology",
+    "label": "461"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/apparel-design",
+    "label": "462"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-applied-human-biology",
+    "label": "463"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/mathematics/majors/bs-in-applied-mathematics",
+    "label": "464"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/engineering-minors",
+    "label": "465"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
+    "label": "466"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20223/majors-minors",
+    "label": "467"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20223/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-minors",
+    "label": "468"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/history/asian-studies-major-minor",
+    "label": "469"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/chemistry",
+    "label": "470"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-minor",
+    "label": "471"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/ba-biology",
+    "label": "472"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-biology",
+    "label": "473"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/business-administration",
+    "label": "474"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/business-administration",
+    "label": "475"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-cellular-molecular-biology",
+    "label": "476"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/chemistry/academics",
+    "label": "477"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/christian-discipleship",
+    "label": "478"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/christian-scripture",
+    "label": "479"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/christian-theology-major",
+    "label": "480"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/classics",
+    "label": "481"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/clinical-psychology-phd",
+    "label": "482"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/coaching-science-minor",
+    "label": "483"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/communication-studies",
+    "label": "484"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/communication-and-journalism/minors/communication-minor",
+    "label": "485"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/computer-engineering-bs",
+    "label": "486"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/comp-engineering",
+    "label": "487"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/computer-science-ba-bs",
+    "label": "488"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20190/degree-requirements?Area=MINCS&Major=1CSC&navRoot={623EB5A9-7EF7-466A-B094-CC30B0D6597F}",
+    "label": "489"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/theatre",
+    "label": "490"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/graduate-programs",
+    "label": "491"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/interdisciplinary/data-analytics",
+    "label": "492"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/digital-education",
+    "label": "493"
+  },
+  {
+    "id": "https://spu.edu/academics/seattle-pacific-seminary/programs/ma-divinity",
+    "label": "494"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences/graduate-nursing-program/dnp-pathways",
+    "label": "495"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/early-childhood-education",
+    "label": "496"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/early-childhood-education#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJECE1ECE",
+    "label": "497"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-ecology",
+    "label": "498"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20190/schools-college/business-government-economics/economics",
+    "label": "499"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/economics",
+    "label": "500"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/economics",
+    "label": "501"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20190/interdisciplinary/ecotheology-minor",
+    "label": "502"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/educational-leadership-med",
+    "label": "503"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/doctoral-programs/doctor-of-education-edd",
+    "label": "504"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/doctoral-programs/doctor-of-philosophy-education-phd",
+    "label": "505"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/electrical-engineering-bs",
+    "label": "506"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/ee#{083B8E61-76FB-416D-ABDD-18F08AC397E7}",
+    "label": "507"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/undergraduate-programs/elementary-education",
+    "label": "508"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-arts-humanities/english",
+    "label": "509"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/entrepreneurship",
+    "label": "510"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/health-and-human-performance-majors/exercise-science-major",
+    "label": "511"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/exercise-science-minor",
+    "label": "512"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/film-studies#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINFILM1FLM",
+    "label": "513"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/family-consumer-sciences/food-nutrional-sciences",
+    "label": "514"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/food-sciences/food-nutrition-emphasis",
+    "label": "515"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/food-sciences/sports-exercise-emphasis",
+    "label": "516"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/french-and-francophone-studies",
+    "label": "517"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/general-engineering-bs",
+    "label": "518"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/interdisciplinary/general-studies#",
+    "label": "519"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/global-development-major",
+    "label": "520"
+  },
+  {
+    "id": "https://spu.edu/academics/seattle-pacific-seminary/programs/graduate-cert-christian-studies",
+    "label": "521"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/hhp-minors/health-and-fitness-education-minor",
+    "label": "522"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/history/history-major-minor",
+    "label": "523"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20201/schools-college/college-of-arts-sciences-arts-humanities/history/history-copy#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINHISMS1HIS",
+    "label": "524"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20201/interdisciplinary/honors-program",
+    "label": "525"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/family-consumer-sciences/undergraduate-programs/family-studies",
+    "label": "526"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/art-programs/illustration#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJILLSTRN1ILS",
+    "label": "527"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/industrial-organizational-psychology-ma",
+    "label": "528"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/interdisciplinary/information-studies",
+    "label": "529"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/information-systems-bs",
+    "label": "530"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/interdisciplinary/interactive-computing-art",
+    "label": "531"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/communication-journalism/journalism",
+    "label": "532"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/communication-and-journalism/minors/journalism-minor",
+    "label": "533"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/interdisciplinary/leadership-studies",
+    "label": "534"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20190/schools-college/college-of-arts-sciences-stem-social-social-science/biology",
+    "label": "535"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/linguistics-and-cultural-studies",
+    "label": "536"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/literacy",
+    "label": "537"
+  },
+  {
+    "id": "https://spu.edu/academics/seattle-pacific-seminary/programs/master-of-arts",
+    "label": "538"
+  },
+  {
+    "id": "https://spu.edu/academics/seattle-pacific-seminary",
+    "label": "539"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/marriage-and-family-therapy",
+    "label": "540"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/masters-programs/masters-of-arts-in-teaching",
+    "label": "541"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/graduate-programs/ms-management-da",
+    "label": "542"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/mathematics/minor",
+    "label": "543"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/engineering-and-computer-science/majors/mechanical-engineering",
+    "label": "544"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/engineering-programs/engineering-minors#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINMECHEGR1MEN",
+    "label": "545"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-psychology-family-community/graduate-programs/medical-family-therapy",
+    "label": "546"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-minors",
+    "label": "547"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-major#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1MUS",
+    "label": "548"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/music/music-major",
+    "label": "549"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/music/degrees/undergraduate-majors/music/performance",
+    "label": "550"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/music/degrees/undergraduate-majors/music/music-production",
+    "label": "551"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/nursing",
+    "label": "552"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/family-consumer-sciences/food-nutrional-sciences#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1ND",
+    "label": "553"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences/graduate-nursing-program",
+    "label": "554"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/center-for-professional-education/endorsements/health-fitness-endorsement",
+    "label": "555"
+  },
+  {
+    "id": "https://spu.edu/UGcatalog/schools-college/school-of-education/p-12-certifcation",
+    "label": "556"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/p-12-certifcation#{003DF870-FF77-45C8-A6BC-9D7ACC405BCA}",
+    "label": "557"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/philosophy/major",
+    "label": "558"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/philosophy/minor",
+    "label": "559"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/physics/programs",
+    "label": "560"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/biology/undergraduate-programs/biology-majors/bs-physiology",
+    "label": "561"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/political-science",
+    "label": "562"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/minors/political-science-minor",
+    "label": "563"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/majors/PPE",
+    "label": "564"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/undergraduate-programs/pre-law",
+    "label": "565"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/interdisciplinary/pre-professional-health-programs",
+    "label": "566"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/principal",
+    "label": "567"
+  },
+  {
+    "id": "https://spu.edu/academics/programs/professional-studies-program",
+    "label": "568"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/program-administrator",
+    "label": "569"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYAB1PSY",
+    "label": "570"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/school-psychology-family-community/psychology-major-body#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}MAJPSYABBS1PSY",
+    "label": "571"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-psychology-family-community/undergraduate-programs/psychology-majors-minor",
+    "label": "572"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/school-executive-leadership",
+    "label": "573"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs",
+    "label": "574"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/undergraduate-programs/becoming-a-teacher-at-spu",
+    "label": "575"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/english-cultural-studies-department/social-justice-cultural-studies-major",
+    "label": "576"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-arts-humanities/english-program/social-justice#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}1SJC",
+    "label": "577"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/sociology/majors",
+    "label": "578"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/sociology/minors",
+    "label": "579"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/languages-cultures-linguistics/undergraduate-programs/spanish-studies",
+    "label": "580"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/school-of-education/special-education-certification#{D620A3BE-D870-48C3-AFEB-1E2D5FB647D1}SPECC1SPE",
+    "label": "581"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/undergraduate-programs/special-education-major",
+    "label": "582"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/interdisciplinary/student-designed-major#",
+    "label": "583"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/graduate-programs/certification-programs/superintendent",
+    "label": "584"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences/theatre/minors",
+    "label": "585"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/school-of-theology/theology-minors",
+    "label": "586"
+  },
+  {
+    "id": "https://spu.edu/ugcatalog/schools-college/college-of-arts-sciences-stem-social-science/sociology-programs/urban-studies#{083B8E61-76FB-416D-ABDD-18F08AC397E7}MINURBAN1URB",
+    "label": "587"
+  },
+  {
+    "id": "https://spu.edu/catalog/undergraduate/20212/schools-college/college-of-arts-sciences-arts-humanities/art-programs/art-ba",
+    "label": "588"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/worship-arts-leadership",
+    "label": "589"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-theology/undergraduate-programs/minors/youth-ministry",
+    "label": "590"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/education-programs/certification-endorsements",
+    "label": "591"
+  },
+  {
+    "id": "https://spu.edu/graduate-admissions/admissions/request-more-info",
+    "label": "592"
+  },
+  {
+    "id": "https://admissions.spu.edu/apply/",
+    "label": "593"
+  },
+  {
+    "id": "https://spu.edu/about-spu/press-room/Press/usnwr-best-national-eighth-year",
+    "label": "594"
+  },
+  {
+    "id": "https://spu.edu/diversity/faq/student-profile",
+    "label": "595"
+  },
+  {
+    "id": "https://spu.edu/diversity/faq/student-profile-grad",
+    "label": "596"
+  },
+  {
+    "id": "https://spu.edu/undergraduate-admissions/outcomes",
+    "label": "597"
+  },
+  {
+    "id": "https://spu.edu/administration/office-of-institutional-effectiveness",
+    "label": "598"
+  },
+  {
+    "id": "https://spufalcons.com/news/2024/3/1/copp-named-spus-inaugural-womens-golf-coach.aspx",
+    "label": "599"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education/diversity-conference",
+    "label": "600"
+  },
+  {
+    "id": "https://spu.edu/about-spu/news/articles/2024/jan/library-inaugurations-display",
+    "label": "601"
+  },
+  {
+    "id": "https://spu.edu/about-spu/news/articles/2024/jan/percussion-ensemble-concert",
+    "label": "602"
+  },
+  {
+    "id": "https://stories.spu.edu/articles/spu-alum-named-2023-superintendent-of-the-year",
+    "label": "603"
+  },
+  {
+    "id": "https://stories.spu.edu/articles/in-the-business-of-making-dreams-come-true",
+    "label": "604"
+  },
+  {
+    "id": "https://spu.edu/about-spu/press-room",
+    "label": "605"
+  },
+  {
+    "id": "https://spu.edu/stories",
+    "label": "606"
+  },
+  {
+    "id": "https://stories.spu.edu/articles/enriching-transformations-on-both-sides-of-the-border",
+    "label": "607"
+  },
+  {
+    "id": "https://spu.edu/student-financial-services/financial-aid/fafsa/fafsa-simplification",
+    "label": "608"
+  },
+  {
+    "id": "https://goo.gl/maps/fQq2afgcegNgCeqKA",
+    "label": "609"
+  },
+  {
+    "id": "tel:206-281-2000",
+    "label": "610"
+  },
+  {
+    "id": "https://www.linkedin.com/school/seattle-pacific-university/",
+    "label": "611"
+  },
+  {
+    "id": "https://spu.edu/response",
+    "label": "612"
+  },
+  {
+    "id": "https://spu.edu/administration/housing-residence-life/housing/meal-plans/dining-services-locations",
+    "label": "613"
+  },
+  {
+    "id": "https://spu.edu/bookstore",
+    "label": "614"
+  },
+  {
+    "id": "https://spu.edu/campus-map",
+    "label": "615"
+  },
+  {
+    "id": "https://spu.edu/emergency",
+    "label": "616"
+  },
+  {
+    "id": "https://spu.edu/about-spu/community-resources/higher-education-emergency-relief-fund-public-reporting",
+    "label": "617"
+  },
+  {
+    "id": "https://spu.edu/academics/college-of-arts-sciences",
+    "label": "618"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics",
+    "label": "619"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-health-sciences",
+    "label": "620"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-education",
+    "label": "621"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-psychology-family-community",
+    "label": "622"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-theology",
+    "label": "623"
+  },
+  {
+    "id": "https://spu.edu/centers/cbte/",
+    "label": "624"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-psychology-family-community/centers-and-initiatives/center-for-relationship-development",
+    "label": "625"
+  },
+  {
+    "id": "https://spu.edu/academics/school-of-business-and-economics/center-for-applied-learning",
+    "label": "626"
+  },
+  {
+    "id": "https://spu.edu/academics/center-for-integrity-in-business",
+    "label": "627"
+  },
+  {
+    "id": "https://spu.edu/administration/center-for-learning",
+    "label": "628"
+  },
+  {
+    "id": "https://wiki.spu.edu/display/POL/Website+Privacy+Policy",
+    "label": "629"
+  },
+  {
+    "id": "https://spu.edu/administration/human-resources/nondiscrimination-title-ix-hr/access-and-accommodation",
+    "label": "630"
+  },
+  {
+    "id": "https://spu.formstack.com/forms/website_feedback",
+    "label": "631"
+  },
+  {
+    "id": "https://spu.edu/contact-us",
+    "label": "632"
+  },
+  {
+    "id": "https://spu.edu/jobs",
+    "label": "633"
+  },
+  {
+    "id": "https://spu.edu/administration/human-resources/nondiscrimination-title-ix-hr",
+    "label": "634"
   }
 ]
