@@ -17,6 +17,11 @@ function calculatePartialMatrix(startIndex, endIndex, graph, nodes) {
   console.log(`Worker ${startIndex}-${endIndex} started!`);
   const partialMatrix = [];
   for (let i = startIndex; i < endIndex; i++) {
+    process.stdout.write(
+      `Node ${
+        i + 1
+      }/${endIndex} in thread ${startIndex} - ${endIndex} processing...\r`
+    );
     const row = [];
     for (let j = 0; j < nodes.length; j++) {
       if (i !== j) {
@@ -30,10 +35,12 @@ function calculatePartialMatrix(startIndex, endIndex, graph, nodes) {
       }
     }
     partialMatrix.push(row);
+    process.stdout.write(
+      `Node ${
+        i + 1
+      }/${endIndex} in thread ${startIndex} - ${endIndex} processed\r`
+    );
   }
-
-  //   console.log(`Worker ${startIndex}-${endIndex} finished!`);
-  //   console.log(`Partial matrix: ${partialMatrix}`);
 
   return { startIndex, endIndex, partialMatrix };
 }

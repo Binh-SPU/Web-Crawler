@@ -68,7 +68,7 @@ async function fetchDomContentAndParsing(url) {
       return link;
     });
 
-    console.log(`URL: ${url}`);
+    process.stdout.write(`URL: ${url}\r`);
 
     // console.log(`Links: ${links}`);
 
@@ -152,7 +152,7 @@ async function crawlWebsite(urls, maxDepth) {
   }
 }
 
-function GetMostCentralNode(nodes, edges) {
+async function GetMostCentralNode(nodes, edges) {
   console.log("\nCalculating the most central node...\n");
 
   const startTime = performance.now();
@@ -168,44 +168,67 @@ function GetMostCentralNode(nodes, edges) {
 
   let matrix = createSquareMatrix(nodes);
 
-  SetTheWholeMatrix(graphJS, matrix, nodes, edges)
-    .then((resultMatrix) => {
-      console.log("Matrix: ", resultMatrix[0]);
-      return (matrix = resultMatrix);
-    })
-    .catch((error) => {
-      console.error(error); // Handle any errors that may occur
-    });
+  try {
+    matrix = await SetTheWholeMatrix(graphJS, matrix, nodes, edges);
 
-  // console.log("Matrix: ", matrix);
+    const inverseDistances = [];
+    let mostCentralNode = null;
+    for (let i = 0; i < nodes.length; i++) {
+      inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
+      if (i === 0) {
+        mostCentralNode = {
+          id: nodes[i].id,
+          inverseDistance: inverseDistances[i],
+        };
+      }
+      if (inverseDistances[i] > mostCentralNode.inverseDistance) {
+        mostCentralNode = {
+          id: nodes[i].id,
+          inverseDistance: inverseDistances[i],
+        };
+      }
+    }
 
-  const inverseDistances = [];
-  let mostCentralNode = null;
-  for (let i = 0; i < nodes.length; i++) {
-    inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
-    if (i === 0) {
-      mostCentralNode = {
-        id: nodes[i].id,
-        inverseDistance: inverseDistances[i],
-      };
-    }
-    if (inverseDistances[i] > mostCentralNode.inverseDistance) {
-      mostCentralNode = {
-        id: nodes[i].id,
-        inverseDistance: inverseDistances[i],
-      };
-    }
+    const endTime = performance.now();
+
+    console.log(
+      `Execution time of Calculating the most central node: ${
+        endTime - startTime
+      } milliseconds`
+    );
+    console.log("Most central node: ", mostCentralNode, "\n");
+    return mostCentralNode;
+  } catch (error) {
+    console.error(error); // Handle any errors that may occur
   }
 
-  const endTime = performance.now();
+  // const inverseDistances = [];
+  // let mostCentralNode = null;
+  // for (let i = 0; i < nodes.length; i++) {
+  //   inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
+  //   if (i === 0) {
+  //     mostCentralNode = {
+  //       id: nodes[i].id,
+  //       inverseDistance: inverseDistances[i],
+  //     };
+  //   }
+  //   if (inverseDistances[i] > mostCentralNode.inverseDistance) {
+  //     mostCentralNode = {
+  //       id: nodes[i].id,
+  //       inverseDistance: inverseDistances[i],
+  //     };
+  //   }
+  // }
 
-  console.log(
-    `Execution time of Calculating the most central node: ${
-      endTime - startTime
-    } milliseconds`
-  );
-  console.log("Most central node: ", mostCentralNode, "\n");
-  return mostCentralNode;
+  // const endTime = performance.now();
+
+  // console.log(
+  //   `Execution time of Calculating the most central node: ${
+  //     endTime - startTime
+  //   } milliseconds`
+  // );
+  // console.log("Most central node: ", mostCentralNode, "\n");
+  // return mostCentralNode;
 }
 
 function createSquareMatrix(nodes) {
@@ -221,8 +244,8 @@ function Set1SlotInMatrix(matrix, from, to, value) {
   matrix[from][to] = value;
 }
 
-function SetTheWholeMatrix(graph, matrix, nodes, edges) {
-  const numThreads = 4;
+async function SetTheWholeMatrix(graph, matrix, nodes, edges) {
+  const numThreads = 8;
   const chunkSize = Math.ceil(nodes.length / numThreads);
   const workers = [];
 
@@ -310,7 +333,7 @@ async function main() {
     fs.writeFileSync("edges.json", JSON.stringify(edges, null, 2));
     console.log("Web crawling completed successfully!");
 
-    const mostCentralNode = GetMostCentralNode(nodes, edges);
+    const mostCentralNode = await GetMostCentralNode(nodes, edges);
   } catch (error) {
     console.error(error);
   }
