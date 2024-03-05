@@ -1,8 +1,7 @@
-const { stat } = require("fs");
 const { parentPort, workerData } = require("worker_threads");
 const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
 
-const { startIndex, endIndex, nodes, edges, graph } = workerData;
+const { startIndex, endIndex, nodes, edges } = workerData;
 
 const graphJS = new dijkstra();
 

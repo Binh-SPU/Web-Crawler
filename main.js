@@ -156,20 +156,11 @@ async function GetMostCentralNode(nodes, edges) {
   console.log("\nCalculating the most central node...\n");
 
   const startTime = performance.now();
-  const graphJS = new dijkstra();
-
-  nodes.forEach((node) => {
-    graphJS.addVertex(node.id);
-  });
-
-  edges.forEach((edge) => {
-    graphJS.addEdge(edge.from, edge.to, 1);
-  });
 
   let matrix = createSquareMatrix(nodes);
 
   try {
-    matrix = await SetTheWholeMatrix(graphJS, matrix, nodes, edges);
+    matrix = await SetTheWholeMatrix(matrix, nodes, edges);
 
     const inverseDistances = [];
     let mostCentralNode = null;
@@ -201,34 +192,6 @@ async function GetMostCentralNode(nodes, edges) {
   } catch (error) {
     console.error(error); // Handle any errors that may occur
   }
-
-  // const inverseDistances = [];
-  // let mostCentralNode = null;
-  // for (let i = 0; i < nodes.length; i++) {
-  //   inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
-  //   if (i === 0) {
-  //     mostCentralNode = {
-  //       id: nodes[i].id,
-  //       inverseDistance: inverseDistances[i],
-  //     };
-  //   }
-  //   if (inverseDistances[i] > mostCentralNode.inverseDistance) {
-  //     mostCentralNode = {
-  //       id: nodes[i].id,
-  //       inverseDistance: inverseDistances[i],
-  //     };
-  //   }
-  // }
-
-  // const endTime = performance.now();
-
-  // console.log(
-  //   `Execution time of Calculating the most central node: ${
-  //     endTime - startTime
-  //   } milliseconds`
-  // );
-  // console.log("Most central node: ", mostCentralNode, "\n");
-  // return mostCentralNode;
 }
 
 function createSquareMatrix(nodes) {
@@ -240,11 +203,7 @@ function createSquareMatrix(nodes) {
   return matrix;
 }
 
-function Set1SlotInMatrix(matrix, from, to, value) {
-  matrix[from][to] = value;
-}
-
-async function SetTheWholeMatrix(graph, matrix, nodes, edges) {
+async function SetTheWholeMatrix(matrix, nodes, edges) {
   const numThreads = 8;
   const chunkSize = Math.ceil(nodes.length / numThreads);
   const workers = [];
@@ -296,27 +255,6 @@ async function SetTheWholeMatrix(graph, matrix, nodes, edges) {
     });
   });
 }
-
-// function SetTheWholeMatrix(graph, matrix, nodes) {
-//   for (let i = 0; i < nodes.length; i++) {
-//     process.stdout.write(`Node ${i + 1}/${nodes.length}\r`);
-//     for (let j = 0; j < nodes.length; j++) {
-//       if (i !== j) {
-//         const distance = graph.calculateShortestPath(
-//           nodes[i].id,
-//           nodes[j].id
-//         ).length;
-//         distance !== 0
-//           ? Set1SlotInMatrix(matrix, i, j, distance)
-//           : Set1SlotInMatrix(matrix, i, j, Infinity);
-//       } else {
-//         Set1SlotInMatrix(matrix, i, j, Infinity);
-//       }
-//     }
-//   }
-
-//   return matrix;
-// }
 
 function GetSumOfDistance(matrix, index) {
   let sum = 0;
