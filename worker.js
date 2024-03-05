@@ -19,20 +19,15 @@ function calculatePartialMatrix(startIndex, endIndex, graph, nodes) {
   for (let i = startIndex; i < endIndex; i++) {
     const row = [];
     for (let j = 0; j < nodes.length; j++) {
-      if (i !== j) {
-        const distance = graph.calculateShortestPath(
-          nodes[i].id,
-          nodes[j].id
-        ).length;
-        row.push(distance !== 0 ? distance : Infinity);
-      } else {
-        row.push(Infinity);
-      }
+      const distance = graph.calculateShortestPath(
+        nodes[i].id,
+        nodes[j].id
+      ).length;
+      row.push(distance !== 0 ? distance : Infinity);
     }
     if (i !== endIndex - 1) {
-      const message = `Node [${i}]/${endIndex} in thread ${startIndex} - ${endIndex} processed\r`;
       status = "Ongoing";
-      parentPort.postMessage({ message, status });
+      parentPort.postMessage({ status });
     } else {
       status = "Completed";
     }

@@ -39,6 +39,16 @@ async function getDepthFromUser() {
   }
 }
 
+async function getArrayOfDepth(urls) {
+  const depths = [];
+  for (const url of urls) {
+    const depth = await getDepthFromUser();
+    depths.push(depth);
+  }
+
+  return depths;
+}
+
 async function fetchDomContentAndParsing(url) {
   try {
     const response = await fetch(url);
@@ -78,21 +88,31 @@ async function fetchDomContentAndParsing(url) {
   }
 }
 
-async function crawlWebsite(urls, maxDepth) {
+async function crawlWebsite(urls, depths) {
   try {
+    if (urls.length !== depths.length) {
+      throw new Error(
+        "The number of URLs does not match the number of depths."
+      );
+    }
+
     console.log("\nCrawling the web...\n");
     const startTime = performance.now();
 
     const graph = {};
     const visitedUrls = new Set();
     const nodeSet = new Set();
-    const queue = urls.map((url) => ({ url, currentDepth: 0 }));
+    const queue = urls.map((url, index) => ({
+      url,
+      currentDepth: 0,
+      maxDepth: depths[index],
+    }));
 
     while (queue.length > 0) {
       const promises = [];
 
       while (promises.length < MAX_CONCURRENT_REQUESTS && queue.length > 0) {
-        const { url, currentDepth } = queue.shift();
+        const { url, currentDepth, maxDepth } = queue.shift();
 
         if (currentDepth < maxDepth && !visitedUrls.has(url)) {
           visitedUrls.add(url);
@@ -106,7 +126,11 @@ async function crawlWebsite(urls, maxDepth) {
                 links.forEach((link) => {
                   if (!visitedUrls.has(link)) {
                     if (!nodeSet.has(link)) nodeSet.add(link);
-                    queue.push({ url: link, currentDepth: currentDepth + 1 });
+                    queue.push({
+                      url: link,
+                      currentDepth: currentDepth + 1,
+                      maxDepth,
+                    });
                   }
                 });
               })
@@ -197,7 +221,7 @@ async function GetMostCentralNode(nodes, edges) {
 function createSquareMatrix(nodes) {
   const matrix = [];
   for (let i = 0; i < nodes.length; i++) {
-    matrix[i] = new Array(nodes.length).fill(0);
+    matrix[i] = new Array(nodes.length).fill(Infinity);
   }
 
   return matrix;
@@ -224,12 +248,14 @@ async function SetTheWholeMatrix(matrix, nodes, edges) {
 
   return new Promise((resolve, reject) => {
     let completedWorkers = 0;
+    let nodesProcessed = 0;
 
     workers.forEach((worker) => {
       worker.on("message", (message) => {
-        // console.log("Received message:", message);
         if (message.status === "Ongoing") {
-          process.stdout.write(`${message.message}`);
+          process.stdout.write(
+            `Node ${++nodesProcessed}/${nodes.length} processed\r`
+          );
         } else {
           const { startIndex, endIndex, partialMatrix } = message.partialMatrix;
 
@@ -270,9 +296,9 @@ function GetSumOfDistance(matrix, index) {
 
 async function main() {
   try {
-    const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
-    const { graph, nodes, edges } = await crawlWebsite(urls, depth);
+    const depths = await getArrayOfDepth(urls);
+    const { graph, nodes, edges } = await crawlWebsite(urls, depths);
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
