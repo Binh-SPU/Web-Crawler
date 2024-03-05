@@ -1,6 +1,5 @@
 const fs = require("fs");
 const readline = require("readline");
-const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
 const { Worker } = require("worker_threads");
 
 const MAX_CONCURRENT_REQUESTS = 10;
@@ -15,7 +14,7 @@ async function readUrlsFromFile(filePath) {
   }
 }
 
-async function getDepthFromUser() {
+async function getDepthFromUser(url) {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -23,7 +22,7 @@ async function getDepthFromUser() {
 
   try {
     const depth = await new Promise((resolve, reject) => {
-      rl.question("Enter the depth of the crawl: ", (answer) => {
+      rl.question(`Enter the depth of this website ${url}: `, (answer) => {
         rl.close();
         let depth = parseInt(answer);
         if (isNaN(depth) || depth < 0) {
@@ -42,7 +41,7 @@ async function getDepthFromUser() {
 async function getArrayOfDepth(urls) {
   const depths = [];
   for (const url of urls) {
-    const depth = await getDepthFromUser();
+    const depth = await getDepthFromUser(url);
     depths.push(depth);
   }
 
@@ -69,7 +68,11 @@ async function fetchDomContentAndParsing(url) {
       if (link.startsWith("//")) {
         const protocol = new URL(url).protocol;
         link = `${protocol}${link}`;
-      } else if (link.startsWith("/")) {
+      } else if (
+        link.startsWith("/") ||
+        link.startsWith("?") ||
+        link.startsWith("#")
+      ) {
         const { origin } = new URL(url);
         link = `${origin}${link}`;
       } else {
@@ -207,7 +210,7 @@ async function GetMostCentralNode(nodes, edges) {
     const endTime = performance.now();
 
     console.log(
-      `Execution time of Calculating the most central node: ${
+      `\nExecution time of Calculating the most central node: ${
         endTime - startTime
       } milliseconds`
     );
