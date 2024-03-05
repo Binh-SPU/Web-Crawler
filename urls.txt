@@ -1,2 +1,3 @@
-https://spu.edu
-https://store.steampowered.com
+http://quotes.toscrape.com
+https://www.fourohfournotfound.com
+https://www.cornify.com
