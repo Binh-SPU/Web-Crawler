@@ -1,6 +1,6 @@
 const fs = require("fs");
 const readline = require("readline");
-const dijkstra = require("dijkstra-calculator").DijkstraCalculator;
+const { Worker } = require("worker_threads");
 
 const MAX_CONCURRENT_REQUESTS = 10;
 
@@ -14,7 +14,7 @@ async function readUrlsFromFile(filePath) {
   }
 }
 
-async function getDepthFromUser() {
+async function getDepthFromUser(url) {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -22,7 +22,7 @@ async function getDepthFromUser() {
 
   try {
     const depth = await new Promise((resolve, reject) => {
-      rl.question("Enter the depth of the crawl: ", (answer) => {
+      rl.question(`Enter the depth of this website ${url}: `, (answer) => {
         rl.close();
         let depth = parseInt(answer);
         if (isNaN(depth) || depth < 0) {
@@ -36,6 +36,16 @@ async function getDepthFromUser() {
   } catch (error) {
     throw error;
   }
+}
+
+async function getArrayOfDepth(urls) {
+  const depths = [];
+  for (const url of urls) {
+    const depth = await getDepthFromUser(url);
+    depths.push(depth);
+  }
+
+  return depths;
 }
 
 async function fetchDomContentAndParsing(url) {
@@ -58,7 +68,11 @@ async function fetchDomContentAndParsing(url) {
       if (link.startsWith("//")) {
         const protocol = new URL(url).protocol;
         link = `${protocol}${link}`;
-      } else if (link.startsWith("/")) {
+      } else if (
+        link.startsWith("/") ||
+        link.startsWith("?") ||
+        link.startsWith("#")
+      ) {
         const { origin } = new URL(url);
         link = `${origin}${link}`;
       } else {
@@ -67,7 +81,7 @@ async function fetchDomContentAndParsing(url) {
       return link;
     });
 
-    console.log(`URL: ${url}`);
+    process.stdout.write(`URL: ${url}\r`);
 
     // console.log(`Links: ${links}`);
 
@@ -77,21 +91,31 @@ async function fetchDomContentAndParsing(url) {
   }
 }
 
-async function crawlWebsite(urls, maxDepth) {
+async function crawlWebsite(urls, depths) {
   try {
+    if (urls.length !== depths.length) {
+      throw new Error(
+        "The number of URLs does not match the number of depths."
+      );
+    }
+
     console.log("\nCrawling the web...\n");
     const startTime = performance.now();
 
     const graph = {};
     const visitedUrls = new Set();
     const nodeSet = new Set();
-    const queue = urls.map((url) => ({ url, currentDepth: 0 }));
+    const queue = urls.map((url, index) => ({
+      url,
+      currentDepth: 0,
+      maxDepth: depths[index],
+    }));
 
     while (queue.length > 0) {
       const promises = [];
 
       while (promises.length < MAX_CONCURRENT_REQUESTS && queue.length > 0) {
-        const { url, currentDepth } = queue.shift();
+        const { url, currentDepth, maxDepth } = queue.shift();
 
         if (currentDepth < maxDepth && !visitedUrls.has(url)) {
           visitedUrls.add(url);
@@ -105,7 +129,11 @@ async function crawlWebsite(urls, maxDepth) {
                 links.forEach((link) => {
                   if (!visitedUrls.has(link)) {
                     if (!nodeSet.has(link)) nodeSet.add(link);
-                    queue.push({ url: link, currentDepth: currentDepth + 1 });
+                    queue.push({
+                      url: link,
+                      currentDepth: currentDepth + 1,
+                      maxDepth,
+                    });
                   }
                 });
               })
@@ -151,85 +179,110 @@ async function crawlWebsite(urls, maxDepth) {
   }
 }
 
-function GetMostCentralNode(nodes, edges) {
+async function GetMostCentralNode(nodes, edges) {
   console.log("\nCalculating the most central node...\n");
 
   const startTime = performance.now();
-  const graphJS = new dijkstra();
-
-  nodes.forEach((node) => {
-    graphJS.addVertex(node.id);
-  });
-
-  edges.forEach((edge) => {
-    graphJS.addEdge(edge.from, edge.to, 1);
-  });
 
   let matrix = createSquareMatrix(nodes);
 
-  matrix = SetTheWholeMatrix(graphJS, matrix, nodes);
+  try {
+    matrix = await SetTheWholeMatrix(matrix, nodes, edges);
 
-  const inverseDistances = [];
-  let mostCentralNode = null;
-  for (let i = 0; i < nodes.length; i++) {
-    inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
-    if (i === 0) {
-      mostCentralNode = {
-        id: nodes[i].id,
-        inverseDistance: inverseDistances[i],
-      };
+    const inverseDistances = [];
+    let mostCentralNode = null;
+    for (let i = 0; i < nodes.length; i++) {
+      inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
+      if (i === 0) {
+        mostCentralNode = {
+          id: nodes[i].id,
+          inverseDistance: inverseDistances[i],
+        };
+      }
+      if (inverseDistances[i] > mostCentralNode.inverseDistance) {
+        mostCentralNode = {
+          id: nodes[i].id,
+          inverseDistance: inverseDistances[i],
+        };
+      }
     }
-    if (inverseDistances[i] > mostCentralNode.inverseDistance) {
-      mostCentralNode = {
-        id: nodes[i].id,
-        inverseDistance: inverseDistances[i],
-      };
-    }
+
+    const endTime = performance.now();
+
+    console.log(
+      `\nExecution time of Calculating the most central node: ${
+        endTime - startTime
+      } milliseconds`
+    );
+    console.log("Most central node: ", mostCentralNode, "\n");
+    return mostCentralNode;
+  } catch (error) {
+    console.error(error); // Handle any errors that may occur
   }
-
-  const endTime = performance.now();
-
-  console.log(
-    `Execution time of Calculating the most central node: ${
-      endTime - startTime
-    } milliseconds`
-  );
-  console.log("Most central node: ", mostCentralNode, "\n");
-  return mostCentralNode;
 }
 
 function createSquareMatrix(nodes) {
   const matrix = [];
   for (let i = 0; i < nodes.length; i++) {
-    matrix[i] = new Array(nodes.length).fill(0);
+    matrix[i] = new Array(nodes.length).fill(Infinity);
   }
 
   return matrix;
 }
 
-function Set1SlotInMatrix(matrix, from, to, value) {
-  matrix[from][to] = value;
-}
+async function SetTheWholeMatrix(matrix, nodes, edges) {
+  const numThreads = 8;
+  const chunkSize = Math.ceil(nodes.length / numThreads);
+  const workers = [];
 
-function SetTheWholeMatrix(graph, matrix, nodes) {
-  for (let i = 0; i < nodes.length; i++) {
-    process.stdout.write(`Node ${i + 1}/${nodes.length}\r`);
-    for (let j = 0; j < nodes.length; j++) {
-      if (i !== j) {
-        const distance = graph.calculateShortestPath(
-          nodes[i].id,
-          nodes[j].id
-        ).length;
-        distance !== 0
-          ? Set1SlotInMatrix(matrix, i, j, distance)
-          : Set1SlotInMatrix(matrix, i, j, Infinity);
-      } else {
-        Set1SlotInMatrix(matrix, i, j, Infinity);
-      }
-    }
+  for (let i = 0; i < numThreads; i++) {
+    const startIndex = i * chunkSize;
+    const endIndex = Math.min((i + 1) * chunkSize, nodes.length);
+    const worker = new Worker("./worker.js", {
+      workerData: { startIndex, endIndex, edges, nodes },
+    });
+    console.log(
+      `Worker ${
+        i + 1
+      } created with startIndex: ${startIndex} and endIndex: ${endIndex}`
+    );
+    workers.push(worker);
   }
 
-  return matrix;
+  return new Promise((resolve, reject) => {
+    let completedWorkers = 0;
+    let nodesProcessed = 0;
+
+    workers.forEach((worker) => {
+      worker.on("message", (message) => {
+        if (message.status === "Ongoing") {
+          process.stdout.write(
+            `Node ${++nodesProcessed}/${nodes.length} processed\r`
+          );
+        } else {
+          const { startIndex, endIndex, partialMatrix } = message.partialMatrix;
+
+          for (let i = startIndex; i < endIndex; i++) {
+            matrix[i] = partialMatrix[i - startIndex];
+          }
+
+          // console.log(`matrix: ${matrix}`);
+
+          completedWorkers++;
+          if (completedWorkers === numThreads) {
+            resolve(matrix);
+          }
+        }
+      });
+
+      worker.on("error", reject);
+      worker.on("exit", (code) => {
+        if (code !== 0) {
+          reject(new Error(`Worker stopped with exit code ${code}`));
+        }
+      });
+    });
+  });
 }
 
 function GetSumOfDistance(matrix, index) {
@@ -246,9 +299,9 @@ function GetSumOfDistance(matrix, index) {
 
 async function main() {
   try {
-    const depth = await getDepthFromUser();
     const urls = await readUrlsFromFile("urls.txt");
-    const { graph, nodes, edges } = await crawlWebsite(urls, depth);
+    const depths = await getArrayOfDepth(urls);
+    const { graph, nodes, edges } = await crawlWebsite(urls, depths);
 
     // Example: Write graph data to a file
     fs.writeFileSync("graph_data.json", JSON.stringify(graph, null, 2));
@@ -256,7 +309,7 @@ async function main() {
     fs.writeFileSync("edges.json", JSON.stringify(edges, null, 2));
     console.log("Web crawling completed successfully!");
 
-    const mostCentralNode = GetMostCentralNode(nodes, edges);
+    const mostCentralNode = await GetMostCentralNode(nodes, edges);
   } catch (error) {
     console.error(error);
   }
