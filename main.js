@@ -179,7 +179,7 @@ async function crawlWebsite(urls, depths) {
   }
 }
 
-async function GetMostCentralNode(nodes, edges) {
+async function GetMostCentralNode(urls, nodes, edges) {
   console.log("\nCalculating the most central node...\n");
 
   const startTime = performance.now();
@@ -189,23 +189,31 @@ async function GetMostCentralNode(nodes, edges) {
   try {
     matrix = await SetTheWholeMatrix(matrix, nodes, edges);
 
-    const inverseDistances = [];
+    const closenessCentrality = [];
+    const listUrls = [];
     let mostCentralNode = null;
     for (let i = 0; i < nodes.length; i++) {
-      inverseDistances[i] = 1.0 / GetSumOfDistance(matrix, i);
-      if (i === 0) {
+      closenessCentrality[i] = 1.0 / GetSumOfDistance(matrix, i);
+      if (
+        i === 0 ||
+        closenessCentrality[i] > mostCentralNode.closenessCentrality
+      ) {
         mostCentralNode = {
           id: nodes[i].id,
-          inverseDistance: inverseDistances[i],
+          closenessCentrality: closenessCentrality[i],
         };
       }
-      if (inverseDistances[i] > mostCentralNode.inverseDistance) {
-        mostCentralNode = {
+      if (urls.includes(nodes[i].id)) {
+        listUrls.push({
           id: nodes[i].id,
-          inverseDistance: inverseDistances[i],
-        };
+          closenessCentrality: closenessCentrality[i],
+        });
       }
     }
+
+    listUrls.sort((a, b) => b.closenessCentrality - a.closenessCentrality);
+
+    console.log("List of URLs with their closeness centrality: ", listUrls);
 
     const endTime = performance.now();
 
@@ -215,7 +223,7 @@ async function GetMostCentralNode(nodes, edges) {
       } milliseconds`
     );
     console.log("Most central node: ", mostCentralNode, "\n");
-    return mostCentralNode;
+    return { mostCentralNode, listUrls };
   } catch (error) {
     console.error(error); // Handle any errors that may occur
   }
@@ -309,7 +317,16 @@ async function main() {
     fs.writeFileSync("edges.json", JSON.stringify(edges, null, 2));
     console.log("Web crawling completed successfully!");
 
-    const mostCentralNode = await GetMostCentralNode(nodes, edges);
+    const { mostCentralNode, listUrls } = await GetMostCentralNode(
+      urls,
+      nodes,
+      edges
+    );
+
+    fs.writeFileSync(
+      "closeness_centrality_sorted_urls.json",
+      JSON.stringify(listUrls, null, 2)
+    );
   } catch (error) {
     console.error(error);
   }
