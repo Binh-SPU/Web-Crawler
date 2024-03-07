@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+http://quotes.toscrape.com
+https://www.fourohfournotfound.com
+https://www.cornify.com
+=======
 https://scrapeme.live/?fbclid=IwAR2uz06oAMh_KYDgJ97tf7tz2V3VcUaF1eiN0HX0O-xdEANse8gxaJXQhA0
 https://overwatch.blizzard.com/en-us/
 https://wordpress.org
 https://www.netflix.com
+>>>>>>> 314bc155c8505bc05b03bac114d7fd8b278c0a73
