@@ -58,6 +58,8 @@ During the graphing process, we employed Vis.js as our graphing tool. However, w
 
 During the programming process, we encountered two significant challenges. First and foremost, crawling https://spu.edu with a depth of 2 or more produced over 4000 nodes and 200,000 edges. This web crawling procedure would take over 1 hour. However, taking advantage of the asynchronous nature of JavaScript, we were able to process 10 fetches concurrently to reduce downtime among I/O operations. Now, we can traverse the depth 3 of https://spu.edu with 10,000+ nodes in a span of 11 minutes. Secondly, we faced the challenge of calculating the closeness centrality quickly. Given that JavaScript is a single-threaded language, any CPU-intensive operation is outperformed by other high-level languages. However, to counteract this issue, we employed the use of worker_thread to create virtual threads and optimize performance by leveraging parallelism - calculating the closeness centrality for 3000 nodes in a span of 1 hour and 20 minutes.
 
+[Here is the Web Crawling Youtube Video!](https://www.youtube.com/watch?v=MY4cxp9jnFc)
+
 ## Results
 
 #### Test case 1:
@@ -88,6 +90,8 @@ This is the connectivity graph using Live Server.
 > Depth 2
 
 This is the output of the program.
+
+![Output of the program](https://cdn.discordapp.com/attachments/640896328175452160/1217632916410994779/Test_case_2.png?ex=6604bc05&is=65f24705&hm=5fea6af9f00a15e9e78d6d04105935c3749fd78108a5be604942a274add72f39&)
 
 This is the connectivity graph using Live Server.
 
