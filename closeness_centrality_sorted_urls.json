@@ -1,0 +1,18 @@
+[
+  {
+    "id": "https://www.netflix.com",
+    "closenessCentrality": 0.00024509803921568627
+  },
+  {
+    "id": "https://wordpress.org",
+    "closenessCentrality": 0.00012708095056551024
+  },
+  {
+    "id": "https://scrapeme.live/?fbclid=IwAR2uz06oAMh_KYDgJ97tf7tz2V3VcUaF1eiN0HX0O-xdEANse8gxaJXQhA0",
+    "closenessCentrality": 0.00010297600659046442
+  },
+  {
+    "id": "https://overwatch.blizzard.com/en-us/",
+    "closenessCentrality": 0.00010090817356205853
+  }
+]
