@@ -40,7 +40,7 @@ The program begins by accepting a list of URLs as input. Upon input, the user sp
 
 - Follow the instructions shown on the console to start the crawling process.
 
-- To display the connectivity graph, right click on the "display_graph.html" and choose "Open with Live Server" in Visual Studio Code. If you don't have "Open with Live Server" tab at the bottom right corner of VS code. Then, please install that extension.
+- To display the connectivity graph, right click on the "display_graph.html" and choose "Open with Live Server" in Visual Studio Code.
 
 ## Reflection
 
@@ -69,30 +69,9 @@ During the programming process, we encountered two significant challenges. First
 
 This is the output of the program.
 
-![Output of the program](https://media.discordapp.net/attachments/640896328175452160/1215243996260073472/Test-case-1.png?ex=65fc0b2a&is=65e9962a&hm=caf86afd7b950876876117132f7ccb50475becc990b29bc3efb2fd34556aed0d&=&format=webp&quality=lossless&width=693&height=889)
+![Output of the program](output.png)
 
 This is the connectivity graph using Live Server.
 
-![Connectivity Graph](https://cdn.discordapp.com/attachments/640896328175452160/1215243996612534293/Graph-1.png?ex=65fc0b2a&is=65e9962a&hm=b331c84b151492f1fddc7e352684bab404ae324f0240c94af51129dd0940ba36&)
+![Connectivity Graph](connectivity-graph.png)
 
-#### Test case 2:
-
-> https://scrapeme.live/?fbclid=IwAR2uz06oAMh_KYDgJ97tf7tz2V3VcUaF1eiN0HX0O-xdEANse8gxaJXQhA0
-> Depth 2
-
-> https://overwatch.blizzard.com/en-us/
-> Depth 2
-
-> https://wordpress.org/
-> Depth 2
-
-> https://www.netflix.com/
-> Depth 2
-
-This is the output of the program.
-
-![Output of the program](https://cdn.discordapp.com/attachments/640896328175452160/1217632916410994779/Test_case_2.png?ex=6604bc05&is=65f24705&hm=5fea6af9f00a15e9e78d6d04105935c3749fd78108a5be604942a274add72f39&)
-
-This is the connectivity graph using Live Server.
-
-![Connectivity Graph](https://cdn.discordapp.com/attachments/640896328175452160/1215254858769367090/Test-case-2.png?ex=65fc1548&is=65e9a048&hm=60c59a73fe1d26043f7da70d1d0b6f588644a38b1164a59d883fbe792c8450ac&)
