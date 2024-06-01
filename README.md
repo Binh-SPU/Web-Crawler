@@ -40,7 +40,7 @@ The program begins by accepting a list of URLs as input. Upon input, the user sp
 
 - Follow the instructions shown on the console to start the crawling process.
 
-- To display the connectivity graph, right click on the "display_graph.html" and choose "Open with Live Server" in Visual Studio Code.
+- To display the connectivity graph, right click on the "display_graph.html" and choose "Open with Live Server" in Visual Studio Code. If you don't have "Open with Live Server" tab at the bottom right corner of VS code. Then, please install that extension.
 
 ## Reflection
 
